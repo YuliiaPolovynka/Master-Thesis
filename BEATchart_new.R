@@ -55,6 +55,9 @@ speech_data <- speech_data %>%
     !grepl("Prologue", play_character_list, ignore.case = TRUE) )
 
 View(speech_data)
+saveRDS(speech_data, "/Users/uliapolovinka/Desktop/speech_data.rds")
+
+
 
 unique_plays <- unique(speech_data$play_name)
 
