@@ -1,0 +1,748 @@
+play_name;play_scene;scene_number;play_character_list;play_non_speaking_characters;play_character_count;act_num;scene_num
+A Midsummer Night's Dream;MND I.i;1;Egeus, Demetrius, Helena, Hermia, Hippolyta, Lysander, Philostrate, Theseus;yes;8;1;1
+A Midsummer Night's Dream;MND I.ii;2;Bottom, Flute, Quince, Snout, Snug, Starveling;no;6;1;2
+A Midsummer Night's Dream;MND II.i;3;Demetrius, Helena, Fairy, Oberon, Puck, Titania;yes;6;2;1
+A Midsummer Night's Dream;MND II.ii;4;Demetrius, First Fairy, Helena, Hermia, Lysander, Oberon, Puck, Titania;yes;8;2;2
+A Midsummer Night's Dream;MND III.i;5;Bottom, Cobweb, Flute, Moth, Mustardseed, Peaseblossom, Puck, Quince, Snout, Snug, Starveling, Titania;no;12;3;1
+A Midsummer Night's Dream;MND III.ii;6;Demetrius, Helena, Hermia, Lysander, Oberon, Puck;no;6;3;2
+A Midsummer Night's Dream;MND IV.i;7;Bottom, Cobweb, Demetrius, Egeus, Helena, Hermia, Hippolyta, Lysander, Moth, Mustardseed, Oberon, Peaseblossom, Puck, Theseus, Titania;yes;15;4;1
+A Midsummer Night's Dream;MND IV.ii;8;Bottom, Flute, Quince, Snout, Snug, Starveling;no;6;4;2
+A Midsummer Night's Dream;MND V.i;9;Bottom, Demetrius, Flute, Helena, Hermia, Hippolyta, Lysander, Philostrate, Puck, Quince, Snout, Snug, Starveling, Theseus;yes;14;5;1
+All's Well That Ends Well;AW I.i;1;Bertram, Countess, Helena, Lafew, Page, Parolles;no;6;1;1
+All's Well That Ends Well;AW I.ii;2;Bertram, King, First Lord, Second Lord;no;4;1;2
+All's Well That Ends Well;AW I.iii;3;Clown, Countess, Helena, Steward;no;4;1;3
+All's Well That Ends Well;AW II.i;4;Bertram, King, Helena, Lafew, First Lord, Second Lord, Parolles;yes;7;2;1
+All's Well That Ends Well;AW II.ii;5;Clown, Countess;no;2;2;2
+All's Well That Ends Well;AW II.iii;6;Bertram, Helena, King, Lafew, First Lord, Second Lord, Parolles;yes;7;2;3
+All's Well That Ends Well;AW II.iv;7;Clown, Helena, Parolles;no;3;2;4
+All's Well That Ends Well;AW II.v;8;Bertram, Helena, Lafew, Parolles;no;4;2;5
+All's Well That Ends Well;AW III.i;9;Duke, First Lord, Second Lord;no;3;3;1
+All's Well That Ends Well;AW III.ii;10;Clown, Countess, Helena, First Lord, Second Lord;no;5;3;2
+All's Well That Ends Well;AW III.iii;11;Bertram, Duke, Parolles;yes;3;3;3
+All's Well That Ends Well;AW III.iv;12;Countess, Steward;no;2;3;4
+All's Well That Ends Well;AW III.v;13;Bertram, Diana, Helena, Mariana, Parolles, Widow,;yes;6;3;5
+All's Well That Ends Well;AW III.vi;14;Bertram, First Lord, Second Lord, Parolles;no;4;3;6
+All's Well That Ends Well;AW III.vii;15;Helena, Widow;no;2;3;7
+All's Well That Ends Well;AW IV.i;16;First Lord, Parolles, First Soldier, Second Soldier;yes;4;4;1
+All's Well That Ends Well;AW IV.ii;17;Bertram, Diana;no;2;4;1
+All's Well That Ends Well;AW IV.iii;18;Bertram, First Lord, Second Lord, Messenger, Parolles, First Soldier;yes;6;4;1
+All's Well That Ends Well;AW IV.iv;19;Diana, Helena, Widow;no;3;4;4
+All's Well That Ends Well;AW IV.v;20;Clown, Countess, Lafew;no;3;4;5
+All's Well That Ends Well;AW V.i;21;Diana, Gentleman, Helena, Widow;yes;4;5;1
+All's Well That Ends Well;AW V.ii;22;Clown, Lafew, Parolles;no;3;5;2
+All's Well That Ends Well;AW V.iii;23;Attendant, Bertram, Countess, Diana, Gentleman, Helena, King, Lafew, Parolles, Widow;yes;10;5;3
+Antony and Cleopatra;AC I.i;1;Antony, Charmian, Cleopatra, Demetrius, Iras, Messenger, Philo;yes;7;1;1
+Antony and Cleopatra;AC I.ii;2;Alexas, Antony, Charmian, Cleopatra, Enobarbus, Iras, Messenger 1, Messenger 2, Soothsayer;yes;9;1;2
+Antony and Cleopatra;AC I.iii;3;Alexas, Antony, Charmian, Cleopatra, Iras;no;5;1;3
+Antony and Cleopatra;AC I.iv;4;Caesar, Lepidus, Messenger;yes;3;1;4
+Antony and Cleopatra;AC I.v;5;Alexas, Charmian, Cleopatra, Iras, Mardian;no;5;1;5
+Antony and Cleopatra;AC II.i;6;Menas, Menecrates, Pompey, Varrius;no;4;2;1
+Antony and Cleopatra;AC II.ii;7;Agrippa, Antony, Enobarbus, Lepidus, Ventidius;no;5;2;2
+Antony and Cleopatra;AC II.iii;8;Antony, Caesar, Octavia, Soothsayer;yes;4;2;3
+Antony and Cleopatra;AC II.iv;9;Agrippa, Lepidus, Maecenas;no;3;2;4
+Antony and Cleopatra;AC II.v;10;Alexas, Charmian, Cleopatra, Iras, Mardian, Messenger;no;6;2;5
+Antony and Cleopatra;AC II.vi;11;Agrippa, Antony, Caesar, Enobarbus, Lepidus, Maecenas, Menas, Pompey,;yes;8;2;6
+Antony and Cleopatra;AC III.i;12;Silius, Ventidius;yes;2;3;1
+Antony and Cleopatra;AC III.ii;13;Agrippa, Antony, Caesar, Enobarbus, Lepidus, Octavia;no;6;3;2
+Antony and Cleopatra;AC III.iii;14;Alexas, Charmian, Cleopatra, Iras, Messenger;no;5;3;3
+Antony and Cleopatra;AC III.iv;15;Antony, Octavia;no;2;3;4
+Antony and Cleopatra;AC III.v;16;Enobarbus, Eros;no;2;3;5
+Antony and Cleopatra;AC III.vi;17;Agrippa, Caesar, Maecenas, Octavia;yes;4;3;6
+Antony and Cleopatra;AC III.vii;18;Antony, Canidius, Cleopatra, Enobarbus, Messenger, Soldier;no;6;3;7
+Antony and Cleopatra;AC III.viii;19;Caesar, Taurus;yes;2;3;8
+Antony and Cleopatra;AC III.ix;20;Antony, Enobarbus;no;2;3;9
+Antony and Cleopatra;AC III.x;21;Canidius, Enobarbus, Scarus, Taurus;yes;4;3;10
+Antony and Cleopatra;AC III.xi;22;Antony, Charmian, Cleopatra, Eros, Iras,;yes;5;3;11
+Antony and Cleopatra;AC III.xii;23;Agrippa, Ambassador, Caesar, Dolabella, Thidias;yes;5;3;12
+Antony and Cleopatra;AC III.xiii;24;Ambassador, Antony, Charmian, Cleopatra, Enobarbus, Iras, Servant, Thidias;no;8;3;13
+Antony and Cleopatra;AC IV.i;25;Agrippa, Caesar, Maecenas;yes;3;4;1
+Antony and Cleopatra;AC IV.ii;26;Alexas, Antony, Charmian, Cleopatra, Enobarbus, Iras;yes;6;4;2
+Antony and Cleopatra;AC IV.iii;27;First Soldier, Second Soldier, Third Soldier, Fourth Soldier;no;4;4;3
+Antony and Cleopatra;AC IV.iv;28;Antony, Captain, Charmian, Cleopatra, Eros, Soldier;yes;6;4;4
+Antony and Cleopatra;AC IV.v;29;Antony, Eros, Soldier;no;3;4;5
+Antony and Cleopatra;AC IV.vi;30;Agrippa, Caesar, Dolabella, Enobarbus, Messenger, Soldier;no;6;4;6
+Antony and Cleopatra;AC IV.vii;31;Agrippa, Antony, Eros, Scarus;yes;4;4;7
+Antony and Cleopatra;AC IV.viii;32;Antony, Cleopatra, Scarus;yes;3;4;8
+Antony and Cleopatra;AC IV.ix;33;Enobarbus, First Watch, Second Watch, Sentry;no;4;4;9
+Antony and Cleopatra;AC IV.x;34;Antony, Scarus;yes;2;4;10
+Antony and Cleopatra;AC IV.xi;35;Caesar;yes;1;4;11
+Antony and Cleopatra;AC IV.xii;36;Antony, Cleopatra Scarus;no;3;4;12
+Antony and Cleopatra;AC IV.xiii;37;Charmian, Cleopatra, Iras, Mardian;no;4;4;13
+Antony and Cleopatra;AC IV.xiv;38;Antony, Decretas, Diomedes, Eros, First Guard, Second Guard, Mardian;yes;7;4;14
+Antony and Cleopatra;AC IV.xv;39;Charmian, Cleopatra, Diomedes, Iras;yes;4;4;15
+Antony and Cleopatra;AC V.i;40;Agrippa, Caesar, Decretas, Dolabella, Egyptian, Gallus, Maecenas, Proculeius;yes;8;5;1
+Antony and Cleopatra;AC V.ii;41;Caesar, Charmian, Cleopatra, Clown, Dolabella, Gallus, First Guard, Second Guard, Guardsman, Iras, Maecenas, Mardian, Proculeius, Seleucus;yes;14;5;2
+As You Like It;AYL I.i;1;Adam, Charles, Dennis, Oliver, Orlando;no;5;1;1
+As You Like It;AYL I.ii;2;Celia, Duke Frederick, Le Beau, Orlando, Rosalind, Touchstone;no;6;1;2
+As You Like It;AYL I.iii;3;Celia, Duke Frederick, Rosalind;yes;3;1;3
+As You Like It;AYL II.i;4;Amiens, Duke Senior, First Lord (in Arden), Second Lord (in Arde);yes;4;2;1
+As You Like It;AYL II.ii;5;Duke Frederick, First Lord (in court), Second Lord (in court);yes;3;2;2
+As You Like It;AYL II.iii;6;Adam, Orlando;no;2;2;3
+As You Like It;AYL II.iv;7;Celia, Corin, Rosalind, Silvius, Touchstone;no;5;2;4
+As You Like It;AYL II.v;8;Amiens, Jaques;yes;2;2;5
+As You Like It;AYL II.vi;9;Adam, Orlando;no;2;2;6
+As You Like It;AYL II.vii;10;Adam, Amiens, Duke Senior, First Lord (in Arden), Jaques, Orlando;yes;6;2;7
+As You Like It;AYL III.i;11;Duke Frederick, Oliver;yes;2;3;1
+As You Like It;AYL III.ii;12;Celia, Corins, Jaques, Orlando, Rosalind, Touchstone;no;6;3;2
+As You Like It;AYL III.iii;13;Audrey, Jaques, Sir Oliver, Touchstone;no;4;3;3
+As You Like It;AYL III.iv;14;Celia, Corin, Rosalind;no;3;3;4
+As You Like It;AYL III.v;15;Celia, Corin, Phebe, Rosalind, Silvius;no;5;3;5
+As You Like It;AYL IV.i;16;Celia, Jaques, Orlando, Rosalind;no;4;4;1
+As You Like It;AYL IV.ii;17;Jaques, Lord;yes;2;4;2
+As You Like It;AYL IV.iii;18;Celia, Oliver, Rosalind, Silvius;no;4;4;3
+As You Like It;AYL V.i;19;Audrey, Corin, Touchstone, William;no;4;5;1
+As You Like It;AYL V.ii;20;Oliver, Orlando, Phebe, Rosalind, Silvius;no;5;5;2
+As You Like It;AYL V.iii;21;Audrey, First Page, Second Page, Touchstone;no;4;5;3
+As You Like It;AYL V.iv;22;Amiens, Celia, Duke Senior, Hymen, Jaques, Jaques de Boys, Oliver, Orlando, Phebe, Rosalind, Silvius;no;11;5;4
+Coriolanus;Cor I.i;1;Brutus, First Citizen, Second Citizen, Cominius, Coriolanus/Martius, Menenius, Messenger, Sicinius;yes;8;1;1
+Coriolanus;Cor I.ii;2;Aufidius, First Senator, Second Senator;yes;3;1;2
+Coriolanus;Cor I.iii;3;Gentlewoman, Valeria, Virgilia, Volumnia;no;4;1;3
+Coriolanus;Cor I.iv;4;Lartius, Coriolanus/Martius, Messenger, First Senator, First Soldier, Second Soldier;yes;6;1;4
+Coriolanus;Cor I.v;5;Lartius, Coriolanus/Martius, First Roman, Second Roman, Third Roman;no;5;1;5
+Coriolanus;Cor I.vi;6;Cominius, Coriolanus/Martius, Messenger;yes;3;1;6
+Coriolanus;Cor I.vii;7;Lartius, Lieutenant;yes;2;1;7
+Coriolanus;Cor I.viii;8;Aufidius, Coriolanus/Martius;yes;2;1;8
+Coriolanus;Cor I.ix;9;Cominius, Coriolanus/Martius, Lartius;yes;3;1;9
+Coriolanus;Cor I.x;10;Aufidius, First Soldier;yes;2;1;10
+Coriolanus;Cor II.i;11;Brutus, Cominius, Coriolanus/Martius, Menenius, Messenger, Sicinius, Valeria, Virgilia, Volumnia;no;9;2;1
+Coriolanus;Cor II.ii;12;Brutus, Cominius, Coriolanus/Martius, Menenius, First Officer, Second Officer, First Senator, Sicinius;yes;8;2;2
+Coriolanus;Cor II.iii;13;Brutus, First Citizen, Second Citizen, Third Citizen, Fourth Citizen, Fifth Citizen, Sixth Citizen, Seventh Citizen, Coriolanus/Martius, Menenius, Sicinius;yes;11;2;3
+Coriolanus;Cor III.i;14;Aedile, Brutus, Cominius, Coriolanus/Martius, Lartius, Menenius, Patrician, First Senator, Second Senator, Sicinius;yes;10;3;1
+Coriolanus;Cor III.ii;15;Cominius, Coriolanus/Martius, Menenius, Noble, First Senator, Volumnia;yes;6;3;2
+Coriolanus;Cor III.iii;16;Aedile, Brutus, Cominius, Coriolanus/Martius, Menenius, Plebeians, First Senator, Sicinius;yes;8;3;3
+Coriolanus;Cor IV.i;17;Cominius, Coriolanus/Martius, Menenius, Virgilia, Volumnia;yes;5;4;1
+Coriolanus;Cor IV.ii;18;Aedile, Brutus, Menenius, Sicinius, Virgilia, Volumnia;no;6;4;2
+Coriolanus;Cor IV.iii;19;Roman, Volsce;no;2;4;3
+Coriolanus;Cor IV.iv;20;Citizen, Coriolanus/Martius;no;2;4;4
+Coriolanus;Cor IV.v;21;Aufidius, Coriolanus/Martius, First Servingman, Second Servingman, Third Servingman;no;5;4;5
+Coriolanus;Cor IV.vi;22;Aedile, Brutus, First Citizen, Second Citizen, Third Citizen, Cominius, Menenius, Messenger, Second Messenger, Sicinius,;yes;10;4;6
+Coriolanus;Cor IV.vii;23;Aufidius, Lieutenant;no;2;4;7
+Coriolanus;Cor V.i;24;Brutus, Cominius, Menenius, Sicinius;yes;4;5;1
+Coriolanus;Cor V.ii;25;Aufidius, Coriolanus/Martius, Menenius, First Watch, Second Watch;no;5;5;2
+Coriolanus;Cor V.iii;26;Aufidius, Boy, Coriolanus/Martius, Valeria, Virgilia, Volumnia;yes;6;5;3
+Coriolanus;Cor V.iv;27;Menenius, Messenger, Second Messenger, Sicinius;no;4;5;4
+Coriolanus;Cor V.v;28;First Senator, Valeria, Virgilia, Volumnia;yes;4;5;5
+Coriolanus;Cor V.vi;29;Aufidius, First Conspirator, Second Conspirator, Third Conspirator, Coriolanus/Martius, First Lord, Second Lord, Third Lord;yes;8;5;6
+Cymbeline;Cym I.i;1;First Gentleman, Second Gentleman;no;2;1;1
+Cymbeline;Cym I.ii;2;Cymbeline, Innogen, Pisanio, Posthumus, Queen;no;5;1;2
+Cymbeline;Cym I.iii;3;Cloten, First Lord, Second Lord;no;3;1;3
+Cymbeline;Cym I.iv;4;Innogen, Lady, Pisanio;no;3;1;4
+Cymbeline;Cym I.v;5;Frenchman, Iachimo, Philario, Posthumus;yes;4;1;5
+Cymbeline;Cym I.vi;6;Cornelius, First Lady, Pisanio, Queen;yes;4;1;6
+Cymbeline;Cym I.vii;7;Iachimo, Innogen, Pisanio;no;3;1;7
+Cymbeline;Cym II.i;8;Cloten, First Lord, Second Lord;no;3;2;1
+Cymbeline;Cym II.ii;9;Iachimo, Innogen, Lady;no;3;2;2
+Cymbeline;Cym II.iii;10;Cloten, Cymbeline, Innogen, Lady, First Lord, Second Lord, Messenger, Pisanio, Queen, Song;no;10;2;3
+Cymbeline;Cym II.iv;11;Iachimo, Philario, Posthumus;no;3;2;4
+Cymbeline;Cym III.i;12;Cloten, Cymbeline, Lucius, Queen;yes;4;3;1
+Cymbeline;Cym III.ii;13;Innogen, Pisanio;no;2;3;2
+Cymbeline;Cym III.iii;14;Arviragus, Belarius, Guiderius;no;3;3;3
+Cymbeline;Cym III.iv;15;Innogen, Pisanio;no;2;3;4
+Cymbeline;Cym III.v;16;Attendant, Cloten, Cymbeline, Lucius, Queen;yes;5;3;5
+Cymbeline;Cym III.vi;17;Innogen;no;1;3;6
+Cymbeline;Cym III.vii;18;Arviragus, Belarius, Guiderius, Innogen;no;4;3;7
+Cymbeline;Cym III.viii;19;First Senator, Second Senator, First Tribune;yes;3;3;8
+Cymbeline;Cym IV.i;20;Cloten;no;1;4;1
+Cymbeline;Cym IV.ii;21;Arviragus, Belarius, Captain, Cloten, Guiderius, Innogen, Lucius, Soothsayer;no;8;4;2
+Cymbeline;Cym IV.iii;22;Cymbeline, First Lord, Pisanio;yes;3;4;3
+Cymbeline;Cym IV.iv;23;Arviragus, Belarius, Guiderius;no;3;4;4
+Cymbeline;Cym V.i;24;Posthumus;no;1;5;1
+Cymbeline;Cym V.ii;25;Arviragus, Belarius, Cymbeline, Guiderius, Iachimo, Lucius, Posthumus;yes;7;5;2
+Cymbeline;Cym V.iii;26;First Captain, Second Captain, Arviragus, Belarius, Cymbeline, Gaoler, Guiderius, Lord, Pisanio, Posthumus;yes;10;5;3
+Cymbeline;Cym V.iv;27;First Brother, Second Brother, First Gaoler, Second Gaoler, Jupiter, Messenger, Mothr, Posthumus, Sicilius;no;9;5;4
+Cymbeline;Cym V.v;28;Arviragus, Belarius, Cornelius, Cymbeline, Guiderius, Iachimo, Innogen, Ladies, Lucius, Pisanio, Posthumus, Soothsayer;yes;12;5;5
+Hamlet;Ham I.i;1;Barnardo, Francisco, Ghost, Horatio, Marcellus;no;5;1;1
+Hamlet;Ham I.ii;2;Barnardo, Cornelius, Hamlet, Horatio, King/Claudius, Laertes, Marcellus, Polonius, Queen/Gertrude, Voltemand;yes;10;1;2
+Hamlet;Ham I.iii;3;Laertes, Ophelia, Polonius;no;3;1;3
+Hamlet;Ham I.iv;4;Ghost, Hamlet, Horatio, Marcellus;no;4;1;4
+Hamlet;Ham I.v;5;Ghost, Hamlet, Horatio, Marcellus;no;4;1;5
+Hamlet;Ham II.i;6;Ophelia, Polonius, Reynaldo;no;3;2;1
+Hamlet;Ham II.ii;7;Cornelius, First Player, Hamlet, King/Claudius, Queen/Gertrude, Guildenstern, Polonius, Rosencrantz, Voltemand;yes;9;2;2
+Hamlet;Ham III.i;8;Hamlet, Guildenstern, King/Claudius, Ophelia, Polonius, Queen/Gertrude, Rosencrantz;no;7;3;1
+Hamlet;Ham III.ii;9;First Player, Guildenstern, Hamlet, Horatio, King/Claudius, Ophelia, First Player, Second Player, Third Player, Fourth Player, Polonius,13 Queen/Gertrude, Rosencrantz;yes;13;3;2
+Hamlet;Ham III.iii;10;Guildenstern, Hamlet, King/Claudius, Polonius, Rosencrantz;no;5;3;3
+Hamlet;Ham III.iv;11;Ghost, Hamlet, Polonius, Queen/Gertrude;no;4;3;4
+Hamlet;Ham IV.i;12;Guildenstern, King/Claudius, Queen/Gertrude, Rosencrantz;no;4;4;1
+Hamlet;Ham IV.ii;13;Gentlemen, Guildenstern, Hamlet, Rosencrantz;yes;4;4;2
+Hamlet;Ham IV.iii;14;Guildenstern, Hamlet, King/Claudius, Rosencrantz;yes;4;4;3
+Hamlet;Ham IV.iv;15;Captain, Fortinbras, Guildenstern, Hamlet, Rosencrantz;yes;5;4;4
+Hamlet;Ham IV.v;16;Gentleman, Horatio, King/Claudius, Laertes, Messenger, Ophelia, Queen/Gertrude;yes;7;4;5
+Hamlet;Ham IV.vi;17;Gentleman, Horatio, Sailor;no;3;4;6
+Hamlet;Ham IV.vii;18;King/Claudius, Laertes, Messenger, Queen/Gertrude;no;4;4;7
+Hamlet;Ham V.i;19;First Clown, Second Clown, Hamlet, Horatio, King/Claudius, Laertes, Ophelia, Priest, Queen/Gertrude;yes;9;5;1
+Hamlet;Ham V.ii;20;Fortinbras, Hamlet, Horatio, King/Claudius, Laertes, Osrick, Queen/Gertrude;yes;7;5;2
+Henry IV Part 1;1H4 I.i;1;Blunt, Lancaster, King Henry, Westmorland;yes;4;1;1
+Henry IV Part 1;1H4 I.ii;2;Falstaff, Prince Hal, Poins;no;3;1;2
+Henry IV Part 1;1H4 I.iii;3;Blunt, Hotspur, King Henry, Northumberland, Westmorland, Worcester;yes;6;1;3
+Henry IV Part 1;1H4 II.i;4;First Carrier, Second Carrier, Chamberlain, Gadshill, Ostler;no;5;2;1
+Henry IV Part 1;1H4 II.ii;5;Bardolph, Falstaff, Gadshill, Prince Hal, Peto, Poins, First Traveller, Second Traveller;no;7;2;2
+Henry IV Part 1;1H4 II.iii;6;Hotspur, Lady Percy, Servant;no;3;2;3
+Henry IV Part 1;1H4 II.iv;7;Bardolph, Carrier, Falstaff, Francis, Gadshill, Prince Hal, Hostess, Peto, Poins, Sheriff, Vintner;no;11;2;4
+Henry IV Part 1;1H4 III.i;8;Glendower, Hotspur, Lady Percy, Lady Mortimer, Mortimer, Westmorland, Worcester;no;7;3;1
+Henry IV Part 1;1H4 III.ii;9;King Henry, Prince Hal;yes;2;3;2
+Henry IV Part 1;1H4 III.iii;10;Bardolph, Falstaff, Prince Hal, Hostess;no;4;3;3
+Henry IV Part 1;1H4 IV.i;11;Douglas, Hotspur, Messenger, Vernon, Worcester;no;5;4;1
+Henry IV Part 1;1H4 IV.ii;12;Bardolph, Falstaff, Prince Hal, Westmorland;no;4;4;2
+Henry IV Part 1;1H4 IV.iii;13;Blunt, Douglas, Hotspur, Vernon, Worcester;no;5;4;3
+Henry IV Part 1;1H4 IV.iv;14;Archbishop, Sir Michael;no;2;4;4
+Henry IV Part 1;1H4 V.i;15;Blunt, Falstaff, King Henry, Prince Hal, Lancaster, Vernon, Worcester;no;7;5;1
+Henry IV Part 1;1H4 V.ii;16;Douglas, Hotspur, Messenger, Second Messenger, Vernon, Worcester;no;6;5;2
+Henry IV Part 1;1H4 V.iii;17;Blunt, Douglas, Falstaff, Prince Hal, King Henry, Hotspur;yes;6;5;3
+Henry IV Part 1;1H4 V.iv;18;Douglas, Falstaff, King Henry, Prince Hal, Hotspur, Lancaster, Westmorland;no;7;5;4
+Henry IV Part 1;1H4 V.v;19;King Henry, Prince Hal, Lancaster, Westmorland, Vernon, Worcester;no;6;5;5
+Henry IV Part 2;2H4 I.i;1;Lord Bardolph, Morton, Northumberland, Porter, Travers;no;5;1;1
+Henry IV Part 2;2H4 I.ii;2;Falstaff, Lord Chief Justice, Page, Servant;no;4;1;2
+Henry IV Part 2;2H4 I.iii;3;Archbishop, Lord Bardolph, Hastings, Mowbray;no;4;1;3
+Henry IV Part 2;2H4 II.i;4;Bardolph, Falstaff, Fang, Gower, Hostess, Lord Chief Justice, Page, Snare;no;8;2;1
+Henry IV Part 2;2H4 II.ii;5;Bardolph, Prince Henry, Page, Poins;no;4;2;2
+Henry IV Part 2;2H4 II.iii;6;Northumberland, Lady Northumberland, Lady Percy;no;3;2;3
+Henry IV Part 2;2H4 II.iv;7;Bardolph, Doll, Drawer, Falstaff, Francis, Prince Henry, Hostess, Page, Peto, Pistol, Poins, Will;yes;12;2;4
+Henry IV Part 2;2H4 III.i;8;King Henry IV, Page, Surrey, Warwick;no;4;3;1
+Henry IV Part 2;2H4 III.ii;9;Bardolph, Bullcalf, Falstaff, Feeble, Mouldy, Shadow, Shallow, Silence, Wart;yes;9;3;2
+Henry IV Part 2;2H4 IV.i;10;Archbishop, Hastings, Messenger, Mowbray, Westmorland;yes;5;4;1
+Henry IV Part 2;2H4 IV.ii;11;Archbishop, Captain, Hastings, Prince John, Westmorland;yes;5;4;2
+Henry IV Part 2;2H4 IV.iii;12;Bardolph, Colevile, Falstaff, Prince John, Westmorland;yes;5;4;3
+Henry IV Part 2;2H4 IV.iv;13;Clarence, Gloucester, Harcourt, King Henry IV, Warwick, Westmorland;yes;6;4;4
+Henry IV Part 2;2H4 IV.v;14;Clarence, Gloucester, King Henry IV, Prince Henry, Prince John, Warwick;yes;6;4;5
+Henry IV Part 2;2H4 V.i;15;Bardolph, Davy, Falstaff, Page, Shallow;no;5;5;1
+Henry IV Part 2;2H4 V.ii;16;Clarence, Gloucester, King Henry V, Prince John, Lord Chief Justice, Warwick;yes;6;5;2
+Henry IV Part 2;2H4 V.iii;17;Bardolph, Davy, Falstaff, Page, Pistol, Shallow , Silence;no;7;5;3
+Henry IV Part 2;2H4 V.iv;18;First Beadle, Doll, Hostess;yes;3;5;4
+Henry IV Part 2;2H4 V.v;19;Bardolph, Epilogue, Falstaff, First Groom, Second Groom, Third Groom, King Henry V, Prince John, Lord Chief Justice, Page, Pistol, Shallow;yes;12;5;5
+Henry V;H5 I.i;1;Canterbury, Ely;no;2;1;1
+Henry V;H5 I.ii;2;Ambassador, Bedford, Canterbury, Clarence, Ely, Exeter, Gloucester, King Henry, Warwick, Westmorland;yes;10;1;2
+Henry V;H5 II.i;3;Bardolph, Boy, Hostess, Nym, Pistol;no;5;2;1
+Henry V;H5 II.ii;4;Bedford, Cambridge, Exeter, Grey, King Henry, Scroop, Westmorland;yes;7;2;2
+Henry V;H5 II.iii;5;Bardolph, Boy, Hostess, Nym, Pistol;no;5;2;3
+Henry V;H5 II.iv;6;Berri, Britaine, Constable, Dauphin, Exeter, French King, Messenger;yes;7;2;4
+Henry V;H5 III.i;7;Exeter, Gloucester, King Henry;yes;3;3;1
+Henry V;H5 III.ii;8;Bardolph, Boy, Fluellen, Gower, Jamy, Macmorris, Nym, Pistol;no;8;3;2
+Henry V;H5 III.iii;9;Exeter, Governor, King Henry;yes;3;3;3
+Henry V;H5 III.iv;10;Alice, Katherine;no;2;3;4
+Henry V;H5 III.v;11;Britaine, Constable, Dauphin, French King,;yes;4;3;5
+Henry V;H5 III.vi;12;Fluellen, Gloucester, Gower, King Henry, Montjoy, Pistol;yes;6;3;6
+Henry V;H5 III.vii;13;Constable, Dauphin, Messenger, Orleans, Rambures;yes;5;3;7
+Henry V;H5 IV.i;14;Bates, Bedford, Court, Erpingham, Fluellen, Gloucester, Gower, King Henry, Pistol, Williams;no;10;4;1
+Henry V;H5 IV.ii;15;Constable, Dauphin, Grandpre, Messenger, Orleans, Rambures;yes;6;4;2
+Henry V;H5 IV.iii;16;Bedford, Erpingham, Exeter, Gloucester, King Henry, Montjoy, Salisbury, Westmorland, York;yes;9;4;3
+Henry V;H5 IV.iv;17;Boy, French Soldier, Pistol;no;3;4;4
+Henry V;H5 IV.v;18;Bourbon, Constable, Dauphin, Orleans, Rambures;no;5;4;5
+Henry V;H5 IV.vi;19;Exeter, King Henry;yes;2;4;6
+Henry V;H5 IV.vii;20;Exeter, Fluellen, Gloucester, Gower, King Henry, Montjoy, Williams;yes;7;4;7
+Henry V;H5 IV.viii;21;Fluellen, Gloucester, Gower, King Henry, Herald, Warwick, Williams;yes;7;4;8
+Henry V;H5 V.i;22;Fluellen, Gower, Pistol;no;3;5;1
+Henry V;H5 V.ii;23;Alice, Bedford, Burgundy, Clarence, Exeter, French King, Gloucester, Katherine, King Henry, Huntingdon, Queen Isabel, Warwick, Westmorland,;yes;13;5;2
+Henry VI Part 1;1H6 I.i;1;Bedford, Exeter, Gloucester, Heralds, First Messenger, Secoond Messenger, Third Messenger, Warwick, Winchester;yes;9;1;1
+Henry VI Part 1;1H6 I.ii;2;Alencon, Bastard, Charles, Pucelle, Reignier;yes;5;1;2
+Henry VI Part 1;1H6 I.iii;3;Gloucester, Mayor, Officer, First Servingman, First Watch, Servingmen, Winchester, Woodville;yes;8;1;3
+Henry VI Part 1;1H6 I.iv;4;Boy, Gargrave, Glansdale, Master Gunner, Messenger, Salisbury, Talbot;yes;7;1;4
+Henry VI Part 1;1H6 I.v;5;Charles, Pucelle, Talbot;yes;3;1;5
+Henry VI Part 1;1H6 I.vi;6;Alencon, Charles, Pucelle, Reignier;no;4;1;6
+Henry VI Part 1;1H6 II.i;7;Alencon, Bastard, Bedford, Burgundy, Charles, Pucelle, Reignier, First Sentinel, Sergeant, Soldier, Talbot;yes;11;2;1
+Henry VI Part 1;1H6 II.ii;8;Bedford, Burgundy, Captain, Messenger, Talbot;yes;5;2;2
+Henry VI Part 1;1H6 II.iii;9;Countess, Messenger, Porter, Talbot;yes;4;2;3
+Henry VI Part 1;1H6 II.iv;10;Lawyer, Richard, Somerset, Suffolk, Vernon, Warwick;yes;6;2;4
+Henry VI Part 1;1H6 II.v;11;Gaoler, Mortimer, Richard;no;3;2;5
+Henry VI Part 1;1H6 III.i;12;Exeter, Gloucester, King, Mayor, Richard, First Servingman, Second Servingman, Third Servingman, Somserset, Suffolk, Warwick, Winchester,;yes;12;3;1
+Henry VI Part 1;1H6 III.ii;13;Alencon, Bastard, Bedford, Burgundy, Captain, Charles, Falstaff [soldier], Pucelle, Reignier, First Soldier, Talbot, Watch;yes;12;3;2
+Henry VI Part 1;1H6 III.iii;14;Alencon, Bastard, Burgundy, Charles, Pucelle;yes;5;3;3
+Henry VI Part 1;1H6 III.iv;15;Basset, Exeter, Gloucester, King, Richard, Somerset, Suffolk, Talbot, Vernon, Warwick, Winchester,;yes;11;3;4
+Henry VI Part 1;1H6 IV.i;16;Basset, Exeter, Falstaff [soldier], Gloucester, Governor, King, Richard, Somerset, Suffolk, Talbot, Vernon, Warwick, Winchester;yes;13;4;1
+Henry VI Part 1;1H6 IV.ii;17;General, Talbot;yes;2;4;2
+Henry VI Part 1;1H6 IV.iii;18;Lucy, Messenger, Richard;yes;3;4;3
+Henry VI Part 1;1H6 IV.iv;19;Captain, Lucy, Somerset;yes;3;4;4
+Henry VI Part 1;1H6 IV.v;20;John, Talbot;no;2;4;5
+Henry VI Part 1;1H6 IV.vi;21;John, Talbot;yes;2;4;6
+Henry VI Part 1;1H6 IV.vii;22;Alencon, Bastard, Burgundy, Charles, Lucy, Pucelle, Servant, Talbot;yes;8;4;7
+Henry VI Part 1;1H6 V.i;23;Exeter, Gloucester, King, Legate, Winchester;yes;5;5;1
+Henry VI Part 1;1H6 V.ii;24;Alencon, Bastard, Burgundy, Charles, Pucelle, Scout;no;6;5;2
+Henry VI Part 1;1H6 V.iii;25;Burgundy, Fiends, Margaret, Pucelle, Reignier, Richard, Suffolk;yes;7;5;3
+Henry VI Part 1;1H6 V.iv;26;Alencon, Bastard, Pucelle, Reignier, Richard, Shepherd, Warwick, Winchester;yes;8;5;4
+Henry VI Part 1;1H6 V.v;27;Exeter, Gloucester, King, Legate, Suffolk;no;5;5;5
+Henry VI Part 2;2H6 I.i;1;Buckingham, Cardinal, Gloucester, King, Queen, Salisbury, Somerset, Suffolk, Warwick, York;no;10;1;1
+Henry VI Part 2;2H6 I.ii;2;Duchess, Gloucester, Hume, Messenger;no;4;1;2
+Henry VI Part 2;2H6 I.iii;3;Buckingham, Cardinal, Duchess, Gloucester, Horner, King, Peter, First Petitioner, Second Petitioner, Queen, Salisbury, Servant, Somerset, Suffolk, Warwick, York;yes;16;1;3
+Henry VI Part 2;2H6 I.iv;4;Bolingbroke, Buckingham, Duchess, Hume, Jourdain, Servingman, Southwell, Spirit, Stafford, York;no;10;1;4
+Henry VI Part 2;2H6 II.i;5;Beadle, Buckingham, Cardinal, Gloucester, King, Man, Mayor, Queen, Simpcox, Suffolk, Wife;yes;11;2;1
+Henry VI Part 2;2H6 II.ii;6;Salisbury, Warwick, York;no;3;2;2
+Henry VI Part 2;2H6 II.iii;7;Bolingbroke, Duchess, Gloucester, Horner, Hume, Jourdain, King, First Neighbour, Second Neighbour, Third Neighbour, Peter, First Prentice, Second Prentice, Queen, Salisbury, Southwell, Suffolk, York;yes;18;2;3
+Henry VI Part 2;2H6 II.iv;8;Duchess, Gloucester, Herald, Servant, Sheriff, Stanley;yes;6;2;4
+Henry VI Part 2;2H6 III.i;9;Buckingham, Cardinal, Gloucester, King, Post, Queen, Salisbury, Somerset, Suffolk, Warwick, York;no;11;3;1
+Henry VI Part 2;2H6 III.ii;10;Cardinal, Commons, Gloucester, King, Queen, First Murderer, Second Murderer, Salisbury, Somerset, Suffolk, Vaux, Warwick;yes;12;3;2
+Henry VI Part 2;2H6 III.iii;11;Cardinal, King, Salisbury, Warwick;no;4;3;3
+Henry VI Part 2;2H6 IV.i;12;First Gentleman, Second Gentleman, Lieutenant, Master, Mate, Suffolk, Whitmore;yes;7;4;1
+Henry VI Part 2;2H6 IV.ii;13;Bevis, Brother, Cade, Clerk, Dick, Holland, Michael, Smith, Stafford;yes;9;4;2
+Henry VI Part 2;2H6 IV.iii;14;Cade, Dick;yes;2;4;3
+Henry VI Part 2;2H6 IV.iv;15;Buckingham, King, First Messenger, Second Messenger, Queen, Say;yes;6;4;4
+Henry VI Part 2;2H6 IV.v;16;First Citizen, Scales;no;2;4;5
+Henry VI Part 2;2H6 IV.vi;17;Cade, Dick, Smith, Soldier;yes;4;4;6
+Henry VI Part 2;2H6 IV.vii;18;Bevis, Cade, Dick, Holland, Say, Smith, Messenger;yes;7;4;7
+Henry VI Part 2;2H6 IV.viii;19;Buckingham, Cade, Clifford;yes;3;4;8
+Henry VI Part 2;2H6 IV.ix;20;Buckingham, Clifford, King, Messenger, Queen, Somerset;yes;6;4;9
+Henry VI Part 2;2H6 IV.x;21;Cade, Iden;no;2;4;10
+Henry VI Part 2;2H6 V.i;22;Attendant, Second Attendant, Buckingham, Clifford, Young Clifford, Edward, Iden, King, Queen, Richard, Salisbury, Somerset, Clifford, Young Clifford, King, Queen, Richard, Somerset, Warwick, York;yes;14;5;1
+Henry VI Part 2;2H6 V.ii;23;Clifford, Young Clifford, King, Queen, Richard, Somerset, Warwick, York;yes;8;5;2
+Henry VI Part 2;2H6 V.iii;24;Richard, Salisbury, Warwick, York;yes;3;5;3
+Henry VI Part 3;3H6 I.i;1;Clifford, Edward, Exeter, King, Richard, Montague, Norfolk, Northumberland, Prince, Queen, Warwick, Westmorland, York;yes;13;1;1
+Henry VI Part 3;3H6 I.ii;2;Edward, Sir Hugh, Sir John, Richard, Messenger, Montague, York;no;7;1;2
+Henry VI Part 3;3H6 I.iii;3;Clifford, Rutland, Tutor;yes;3;1;3
+Henry VI Part 3;3H6 I.iv;4;Clifford, Northumberland, Prince, Queen, York;yes;5;1;4
+Henry VI Part 3;3H6 II.i;5;Edward, Messenger, Montague, Richard, Warwick;yes;5;2;1
+Henry VI Part 3;3H6 II.ii;6;Clifford, Edward, George, King, Messenger, Montague, Norfolk, Northumberland, Prince, Queen, Richard, Warwick;yes;12;2;2
+Henry VI Part 3;3H6 II.iii;7;Edward, George, Richard, Warwick;no;4;2;3
+Henry VI Part 3;3H6 II.iv;8;Clifford, Richard, Warwick;yes;3;2;4
+Henry VI Part 3;3H6 II.v;9;Exeter, Father, King, Prince, Queen, Son;no;6;2;5
+Henry VI Part 3;3H6 II.vi;10;Clifford, Edward, George, Montague, Richard, Warwick;yes;6;2;6
+Henry VI Part 3;3H6 III.i;11;First Keeper, Second Keeper, King;no;3;3;1
+Henry VI Part 3;3H6 III.ii;12;Edward, George, Lady Grey, Nobleman, Richard,;no;5;3;2
+Henry VI Part 3;3H6 III.iii;13;Bona, Bourbon, Lewis, Oxford, Post, Prince, Queen, Warwick;no;8;3;3
+Henry VI Part 3;3H6 IV.i;14;Edward, George, Lady Grey, Hastinigs, Montague, Pembroke, Post, Richard, Somerset, Stafford;yes;10;4;1
+Henry VI Part 3;3H6 IV.ii;15;George, Oxford, Somerset, Warwick;yes;4;4;2
+Henry VI Part 3;3H6 IV.iii;16;Edward, George, Hastinigs, Oxford, Richard, Somerset, Warwick, First Watchman, Second Watchman, Third Watchman,;yes;10;4;3
+Henry VI Part 3;3H6 IV.iv;17;Lady Grey, Rivers;no;2;4;4
+Henry VI Part 3;3H6 IV.v;18;Edward, Hastings, Huntsman, Richard, Stanley;no;5;4;5
+Henry VI Part 3;3H6 IV.vi;19;George, King, Lieutenant, Montague, Oxford, Post, Richmond, Somerset, Warwick;no;9;4;6
+Henry VI Part 3;3H6 IV.vii;20;Edward, Hastings, Mayor, Montgomery, Richard, Soldier;yes;6;4;7
+Henry VI Part 3;3H6 IV.viii;21;Edward, Exeter, George, King, Montague, Oxford, Richard, Warwick;yes;8;4;8
+Henry VI Part 3;3H6 V.i;22;Edward, George, Mayor, First Messenger, Second Messenger, Montague, Oxford, Richard, Somerset, Somerville, Warwick;yes;11;5;1
+Henry VI Part 3;3H6 V.ii;23;Edward, Oxford, Somerset, Warwick;no;4;5;2
+Henry VI Part 3;3H6 V.iii;24;Edward, George, Richard;yes;3;5;3
+Henry VI Part 3;3H6 V.iv;25;Edward, George, Messenger, Oxford, Prince, Queen, Richard, Somerset;yes;8;5;4
+Henry VI Part 3;3H6 V.v;26;Edward, George, Oxford, Prince, Queen, Richard, Somerset;yes;7;5;5
+Henry VI Part 3;3H6 V.vi;27;King, Lieutenant, Richard;no;3;5;6
+Henry VI Part 3;3H6 V.vii;28;Edward, George, Hastings, Lady Grey, Nurse, Richard;yes;6;5;7
+Henry VIII;H8 I.i;1;Abergavenny, Brandon, Buckingham, Norfolk, Secretary, Sergeant, Wolsey;yes;7;1;1
+Henry VIII;H8 I.ii;2;Cardinal, King Henry, Lovell, Norfolk, Queen Katherine, Secretary, Suffolk, Surveyor, Wolsey;yes;9;1;2
+Henry VIII;H8 I.iii;3;Lord Chamberlain, Lovell, Sands;no;3;1;3
+Henry VIII;H8 I.iv;4;Anne, Guilford, King Henry, Lord Chamberlain, Lovell, Sands, Servant, Wolsey;yes;8;1;4
+Henry VIII;H8 II.i;5;Buckingham, First Gentleman, Second Gentleman, Lovell, Vaux;yes;5;2;1
+Henry VIII;H8 II.ii;6;Campeius, Gardiner, King Henry, Lord Chamberlain, Norfolk, Suffolk, Wolsey;no;7;2;2
+Henry VIII;H8 II.iii;7;Anne, Old Lady;no;2;2;3
+Henry VIII;H8 II.iv;8;Campeius, Crier, Griffith, King Henry, Queen Katherine, Lincoln, Scribe, Wolsey;yes;8;2;4
+Henry VIII;H8 III.i;9;Campeius, Gentleman, Gentlewoman, Queen Katherine, Wolsey;no;5;3;1
+Henry VIII;H8 III.ii;10;Cromwell, King Henry, Lord Chamberlain, Lovell, Norfolk, Suffolk, Surrey, Wolsey;no;8;3;2
+Henry VIII;H8 IV.i;11;First Gentleman, Second Gentleman, Third Gentleman,;yes;3;4;1
+Henry VIII;H8 IV.ii;12;Capuchius, Griffith, Queen Katherine, Messenger, Patience;yes;5;4;2
+Henry VIII;H8 V.i;13;Cranmer, Denny, Gardiner, Gentleman, King Henry, Lovell, Old Lady, Page, Suffolk;no;9;5;1
+Henry VIII;H8 V.ii;14;Butts, Cranmer, Keeper, King Henry;no;4;5;2
+Henry VIII;H8 V.iii;15;Cranmer, Cromwell, Gardiner, Guard, Keeper, King Henry, Lord Chancellor, Norfolk, Suffolk, Surrey;yes;10;5;3
+Henry VIII;H8 V.iv;16;Lord Chamberlain, Man, Porter, Servant;no;4;5;4
+Henry VIII;H8 V.v;17;Cranmer, Garter, King Henry;yes;3;5;5
+Julius Caesar;JC I.i;1;Carpenter, Cobbler, Flavius, Marullus;yes;4;1;1
+Julius Caesar;JC I.ii;2;Antony, Brutus, Caesar, Calphurnia, Casca, Cassius, Cicero, Decius, Flavius, Marullus, Portia, Soothsayer;yes;12;1;2
+Julius Caesar;JC I.iii;3;Casca, Cassius, Cicero, Cinna;no;4;1;3
+Julius Caesar;JC II.i;4;Brutus, Lucius, Casca, Cassius, Cinna, Decius, Ligarius, Metellus Cimber, Portia, Trebonius;no;10;2;1
+Julius Caesar;JC II.ii;5;Antony, Brutus, Caesar, Calphurnia, Casca, Cinna, Decius, Ligarius, Metellus Cimber, Publius, Servant, Trebonius;no;12;2;2
+Julius Caesar;JC II.iii;6;Artemidorus;no;1;2;3
+Julius Caesar;JC II.iv;7;Lucius, Portia, Soothsayer;no;3;2;4
+Julius Caesar;JC III.i;8;Antony, Artemidorus, Brutus, Caesar, Casca, Cassius, Cinna, Decius, Lepidus, Metellus Cimber, Popilius, Publius, Servant, Soothsayer, Trebonius;yes;15;3;1
+Julius Caesar;JC III.ii;9;Antony, Brutus, Cassius, First Plebeian, Second Plebeian, Third Plebeian, Fourth Plebeian, Servant;yes;9;3;2
+Julius Caesar;JC III.iii;10;Cinna [poet], First Plebeian, Second Plebeian, Third Plebeian, Fourth Plebeian,;yes;5;3;3
+Julius Caesar;JC IV.i;11;Antony, Lepidus, Octavius;no;3;4;1
+Julius Caesar;JC IV.ii;12;Brutus, Cassius, Lucilius, Lucius, Pindarus, First Soldier, Second Soldier, Third Soldier, Titinius;yes;9;4;2
+Julius Caesar;JC IV.iii;13;Brutus, Cassius, Claudius, Ghost, Lucilius, Lucius, Messala, Poet, Titinius, Varro;no;10;4;3
+Julius Caesar;JC V.i;14;Antony, Brutus, Cassius, Lucilius, Messala, Messenger, Octavius, Titinius;yes;8;5;1
+Julius Caesar;JC V.ii;15;Brutus, Messala;no;2;5;2
+Julius Caesar;JC V.iii;16;Brutus, Cassius, Cato, Flavius, Labeo, Lucilius, Messala, Pindarus, Strato, Titinius, Volumnius;no;11;5;3
+Julius Caesar;JC V.iv;17;Antony, Brutus, Cato, Flavius, Lucilius, Messala, First Soldier, Second Soldier;yes;8;5;4
+Julius Caesar;JC V.v;18;Antony, Brutus, Clitus, Dardanius, Lucilius, Messala, Octavius, Strato, Volumnius;yes;9;5;5
+King John;KJ I.i;1;Bastard, Chatelon, Essex, Gurney, King John, Faulconbridge, Pembroke, Queen Eleanor, Robert Faulconbridge, Salisbury, Sheriff;no;11;1;1
+King John;KJ II.i;2;Arthur, Austria, Bastard, Blanche, Chatillon, Constance, English Herald, French Herald, Hubert, King John, King Philip, Lewis the Dauphin, Queen Eleanor;yes;13;2;1
+King John;KJ III.i;3;Arthur, Austria, Bastard, Blanche, Cardinal Pandulph, Constance, King John, King Philip, Queen Eleanor, Lewis the Dauphin, Salisbury;yes;11;3;1
+King John;KJ III.ii;4;Arthur, Bastard, Hubert, King John;no;4;3;2
+King John;KJ III.iii;5;Arthur, Bastard, Hubert, King John, Queen Eleanor;yes;5;3;3
+King John;KJ III.iv;6;Cardinal Pandulph, Constance, King Philip, Lewis the Dauphin;yes;5;3;4
+King John;KJ IV.i;7;Arthur, Executioner, Hubert;no;3;4;1
+King John;KJ IV.iII;8;Arthur, Bastard, Bigot, Hubert, Pembroke, Salisbury;no;6;4;1
+King John;KJ IV.iI;9;Bastard, Hubert, King John, Messenger, Pembroke, Peter, Salisbury;yes;7;4;1
+King John;KJ V.i;10;Bastard, Cardinal Pandulph, King John;yes;3;5;1
+King John;KJ V.iII;11;Hubert, King John, Messenger;no;3;5;1
+King John;KJ V.iI;12;Bastard, Bigot, Cardinal Pandulph, Lewis the Dauphin, Melun, Pembroke, Salisbury;yes;7;5;1
+King John;KJ V.iv;13;Bigot, Melun, Pembroke, Salisbury;no;4;5;4
+King John;KJ V.v;14;Lewis the Dauphin, Messenger;yes;2;5;5
+King John;KJ V.vi;15;Bastard, Hubert;no;2;5;6
+King John;KJ V.vii;16;Bastard, Bigot, King John, Prince Henry, Pembroke, Salisbury;yes;6;5;7
+King Lear;KL I.i;1;Albany, Burgundy, Cordelia, Cornwall, Edmund, France, Gloucester, Gonerill, Kent, Lear, Regan;yes;11;1;1
+King Lear;KL I.ii;2;Edgar, Edmund, Gloucester;no;3;1;2
+King Lear;KL I.iii;3;Gonerill, Oswald;no;2;1;3
+King Lear;KL I.iv;4;Albany, Fool, Gonerill, Kent, First Knight, Second Knight, Third Knight, Lear, Oswald;no;9;1;4
+King Lear;KL I.v;5;Fool, Kent, Knight, Lear;no;4;1;5
+King Lear;KL II.i;6;Cornwall, Curan, Edgar, Edmund, Gloucester, Regan;yes;6;2;1
+King Lear;KL II.ii;7;Cornwall, Edmund, Gloucester, Kent, Oswald, Regan;yes;6;2;2
+King Lear;KL II.iii;8;Edgar;no;1;2;3
+King Lear;KL II.iv;9;Cornwall, Fool, Gentleman, Gloucester, Gonerill, Kent, Lear, Oswald, Regan;no;9;2;4
+King Lear;KL III.i;10;Gentleman, Kent;no;2;3;1
+King Lear;KL III.ii;11;Fool, Kent, Lear;no;3;3;2
+King Lear;KL III.iii;12;Edmund, Gloucester;no;2;3;3
+King Lear;KL III.iv;13;Edgar, Fool, Gloucester, Kent, Lear;no;5;3;4
+King Lear;KL III.v;14;Cornwall, Edmund;no;2;3;5
+King Lear;KL III.vi;15;Edgar, Fool, Gloucester, Kent, Lear;no;5;3;6
+King Lear;KL III.vii;16;Cornwall, Edmund, Gloucester, Gonerill, Oswald, Regan, First Servant, Second Servant, Third Servant;yes;9;3;7
+King Lear;KL IV.i;17;Edgar, Gloucester, Old Man;no;3;4;1
+King Lear;KL IV.ii;18;Albany, Edmund, Gonerill, Messenger, Oswald;no;5;4;2
+King Lear;KL IV.iii;19;Gentleman, Kent;no;2;4;3
+King Lear;KL IV.iv;20;Cordelia, Doctor, Messenger;yes;3;4;4
+King Lear;KL IV.v;21;Oswald, Regan;no;2;4;5
+King Lear;KL IV.vi;22;Edgar, Gentleman, Gloucester, Lear, Oswald;yes;5;4;6
+King Lear;KL IV.vii;23;Cordelia, Doctor, Gentleman, Kent;no;4;4;7
+King Lear;KL V.i;24;Albany, Edgar, Edmund, Gentleman, Gonerill, Regan;yes;6;5;1
+King Lear;KL V.ii;25;Cordelia, Edgar, Gloucester, Lear;yes;4;5;2
+King Lear;KL V.iii;26;Albany, Captain, Cordelia, Edgar, Edmund, Gentleman, Gloucester, Gonerill, Herald, Kent, Lear, Messenger, First Officer, Second Officer, Regan;yes;15;5;3
+Love's Labour's Lost;LLL I.i;1;Berowne, Costard, Dull, Dumaine, King, Longaville;no;6;1;1
+Love's Labour's Lost;LLL I.ii;2;Armado, Costard, Dull, Jaquenetta, Mote;no;5;1;2
+Love's Labour's Lost;LLL II.i;3;Berowne, Boyet, Dumaine, First Lord, Katharine, King, Longaville, Maria, Princess, Rosaline;yes;10;2;1
+Love's Labour's Lost;LLL III.i;4;Armado, Berowne, Costard, Mote;no;4;3;1
+Love's Labour's Lost;LLL IV.i;5;Boyet, Costard, First Lord, Forester, Katharine, Maria, Princess, Rosaline;no;8;4;1
+Love's Labour's Lost;LLL IV.ii;6;Dull, Holofernes, Jaquenetta, Nathaniel;no;4;4;2
+Love's Labour's Lost;LLL IV.iii;7;Berowne, Costard, Dumaine, Jaquenetta, King, Longaville,;no;6;4;3
+Love's Labour's Lost;LLL V.i;8;Armado, Costard, Dull, Holofernes, Mote, Nathaniel;no;6;5;1
+Love's Labour's Lost;LLL V.ii;9;Armado, Berowne, Boyet, Costard, Dumaine, Hiems, Holofernes, Katharine, King, Longaville, Marcade, Maria, Mote, Nathaniel, Princess, Rosaline, Ver;no;17;5;2
+Macbeth;Mac I.i;1;First Witch, Second Witch, Third Witch;no;3;1;1
+Macbeth;Mac I.ii;2;Angus, Captain, Donalbaine, Duncan, Lennox, Malcolm, Ross;yes;7;1;2
+Macbeth;Mac I.iii;3;Angus, Banquo, First Witch, Second Witch, Third Witch, Macbeth, Ross;no;7;1;3
+Macbeth;Mac I.iv;4;Angus, Banquo, Donalbaine, Duncan, Lennox, Macbeth, Malcolm, Ross;yes;8;1;4
+Macbeth;Mac I.v;5;Lady, Macbeth, Messenger;no;3;1;5
+Macbeth;Mac I.vi;6;Angus, Banquo, Donalbaine, Duncan,Lady, Lennox, Macduff, Malcolm, Ross;yes;9;1;6
+Macbeth;Mac I.vii;7;Lady, Macbeth, Sewer, Servant;yes;4;1;7
+Macbeth;Mac II.i;8;Banquo, Fleance, Macbeth, Servant;no;4;2;1
+Macbeth;Mac II.ii;9;Lady, Macbeth;no;2;2;2
+Macbeth;Mac II.iii;10;Banquo, Donalbaine, Lady, Lennox, Macbeth, Macduff, Malcolm, Porter, Ross;no;9;2;3
+Macbeth;Mac II.iv;11;Macduff, Old Man, Ross;no;3;2;4
+Macbeth;Mac III.i;12;Banquo, Lady, Lennox, Macbeth, First Murderer, Second Murderer, Ross, Servant;yes;8;3;1
+Macbeth;Mac III.ii;13;Lady, Macbeth, Servant;no;3;3;2
+Macbeth;Mac III.iii;14;Banquo, Fleance, First Murderer, Second Murderer, Third Murderer,;no;5;3;3
+Macbeth;Mac III.iv;15;Ghost, Lady, Lennox, Macbeth, First Murderer, Ross;yes;6;3;4
+Macbeth;Mac III.v;16;Hecat, First Witch, Second Witch, Third Witch;no;4;3;5
+Macbeth;Mac III.vi;17;Lennox, Lord;no;2;3;6
+Macbeth;Mac IV.i;18;First Apparition, Second Apparition, Third Apparition, Lennox, Macbeth, First Witch, Second Witch, Third Witch;yes;8;4;1
+Macbeth;Mac IV.ii;19;Messenger, Murderer, Ross, Son, Wife;yes;5;4;2
+Macbeth;Mac IV.iii;20;Macduff, Malcolm, Ross;no;3;4;3
+Macbeth;Mac V.i;21;Doctor, Gentlewoman, Lady;no;3;5;1
+Macbeth;Mac V.ii;22;Angus, Cathness, Lennox, Menteth;yes;4;5;2
+Macbeth;Mac V.iii;23;Doctor, Macbeth, Servant, Seyton;yes;4;5;3
+Macbeth;Mac V.iv;24;Angus, Cathness, Macduff, Malcolm, Menteth, Seyward, Soldier, Young Seyward;yes;8;5;4
+Macbeth;Mac V.v;25;Macbeth, Messenger, Seyton;yes;3;5;5
+Macbeth;Mac V.vi;26;Macbeth, Macduff, Malcolm, Ross, Seyward, Young Seyward;yes;6;5;6
+Measure for Measure;MM I.i;1;Angelo, Attendant, Duke, Escalus;yes;4;1;1
+Measure for Measure;MM I.ii;2;Claudio, First Gentleman, Second Gentleman, Juliet, Lucio, Officer, Mistress Overdone, Pompey, Provost;yes;9;1;2
+Measure for Measure;MM I.iii;3;Duke, Friar Thomas;no;2;1;3
+Measure for Measure;MM I.iv;4;Francisca, Isabella, Lucio;no;3;1;4
+Measure for Measure;MM II.i;5;Angelo, Elbow, Escalus, Froth, Justice, Officer, Pompey, Provost;yes;8;2;1
+Measure for Measure;MM II.ii;6;Angelo, Isabella, Lucio, Provost, Servant;no;5;2;2
+Measure for Measure;MM II.iii;7;Duke, Juliet, Provost;no;3;2;3
+Measure for Measure;MM II.iv;8;Angelo, Isabella, Servant;no;3;2;4
+Measure for Measure;MM III.i;9;Claudio, Duke, Isabella, Provost;no;4;3;1
+Measure for Measure;MM III.ii;10;Duke, Elbow, Escalus, Lucio, Officer, Mistress Overdone, Pompey, Provost;yes;8;3;2
+Measure for Measure;MM IV.i;11;Boy, Duke, Friar, Isabella, Mariana;no;5;4;1
+Measure for Measure;MM IV.ii;12;Abhorson, Claudio, Duke, Messenger, Pompey, Provost;no;6;4;2
+Measure for Measure;MM IV.iii;13;Abhorson, Barnardine, Duke, Isabella, Lucio, Pompey;no;6;4;3
+Measure for Measure;MM IV.iv;14;Angelo, Escalus;no;2;4;4
+Measure for Measure;MM IV.v;15;Duke, Friar Peter, Varrius;no;3;4;5
+Measure for Measure;MM IV.vi;16;Friar Peter, Isabella, Mariana;no;3;4;6
+Measure for Measure;MM V.i;17;Angelo, Barnardine, Claudio, Duke, Escalus, Friar Peter, Isabella, Juliet, Lucio, Mariana, Provost, Varrius;yes;12;5;1
+Much Ado About Nothing;MA I.i;1;Balthasar, Beatrice, Benedick, Claudio, Don John, Don Pedro, Hero, Leonato, Messenger;no;9;1;1
+Much Ado About Nothing;MA I.ii;2;Antonio, Balthasar, Leonato;yes;3;1;2
+Much Ado About Nothing;MA I.iii;3;Borachio, Conrade, Don John;no;3;1;3
+Much Ado About Nothing;MA II.i;4;Antonio, Balthasar, Beatrice, Benedick, Borachio, Claudio, Don John, Don Pedro, Hero, Leonato, Margaret, Ursula;yes;12;2;1
+Much Ado About Nothing;MA II.ii;5;Borachio, Don John;no;2;2;2
+Much Ado About Nothing;MA II.iii;6;Balthasar, Beatrice, Benedick, Boy, Claudio, Don Pedro, Leonato;no;7;2;3
+Much Ado About Nothing;MA III.i;7;Beatrice, Hero, Margaret, Ursula;no;4;3;1
+Much Ado About Nothing;MA III.ii;8;Benedick, Claudio, Don John, Don Pedro, Leonato;no;5;3;2
+Much Ado About Nothing;MA III.iii;9;Borachio, Conrade, Dogberry, Verges, First Watchman, Second Watchman;no;6;3;3
+Much Ado About Nothing;MA III.iv;10;Beatrice, Hero, Margaret, Ursula;no;4;3;4
+Much Ado About Nothing;MA III.v;11;Dogberry, Leonato, Messenger, Verges;no;4;3;5
+Much Ado About Nothing;MA IV.i;12;Beatrice, Benedick, Claudio, Don John, Don Pedro, Friar Francis, Hero, Leonato;yes;8;4;1
+Much Ado About Nothing;MA IV.ii;13;Borachio, Conrade, Dogberry, Sexton, Verges, First Watchman, Second Watchman;no;7;4;2
+Much Ado About Nothing;MA V.i;14;Antonio, Benedick, Borachio, Claudio, Conrade, Dogberry, Don Pedro, Leonato, Sexton, Verges, First Watchman, Second Watchman;no;12;5;1
+Much Ado About Nothing;MA V.ii;15;Beatrice, Benedick, Margaret, Ursula;no;4;5;2
+Much Ado About Nothing;MA V.iii;16;Balthasar, Claudio, Lord, Don Pedro;yes;4;5;3
+Much Ado About Nothing;MA V.iv;17;Antonio, Beatrice, Benedick, Claudio, Don Pedro, Friar Francis, Hero, Leonato, Margaret, Messenger, Ursula;yes;11;5;4
+Othello;Oth I.i;1;Brabantio, Iago, Roderigo;yes;3;1;1
+Othello;Oth I.ii;2;Brabantio, Cassio, Iago, First Officer, Othello, Roderigo;yes;6;1;2
+Othello;Oth I.iii;3;Brabantio, Desdemona, Duke, Iago, Messenger, Othello, Roderigo, Sailor, First Senator;yes;9;1;3
+Othello;Oth II.i;4;Cassio, Desdemona, Emilia, First Gentleman, Second Gentleman, Third Gentleman, Fourth Gentleman, Iago, Montano, Othello, Roderigo;yes;11;2;1
+Othello;Oth II.ii;5;Herald;no;1;2;2
+Othello;Oth II.iii;6;Cassio, Desdemona, Gentlemen, Iago, Montano, Othello, Roderigo;yes;7;2;3
+Othello;Oth III.i;7;Cassio, Clown, Emilia, Iago, First Musician;yes;5;3;1
+Othello;Oth III.ii;8;Gentleman, Iago, Othello;yes;3;3;2
+Othello;Oth III.iii;9;Cassio, Desdemona, Emilia, Iago, Othello;no;5;3;3
+Othello;Oth III.iv;10;Bianca, Cassio, Clown, Desdemona, Emilia, Othello;no;6;3;4
+Othello;Oth IV.i;11;Bianca, Cassio, Desdemona, Iago, Lodovico, Othello;yes;6;4;1
+Othello;Oth IV.ii;12;Desdemona, Emilia, Iago, Othello, Roderigo;no;5;4;2
+Othello;Oth IV.iii;13;Desdemona, Emilia, Lodovico, Othello;yes;4;4;3
+Othello;Oth V.i;14;Bianca, Cassio, Emilia, Gratiano, Iago, Lodovico, Othello, Roderigo;no;8;5;1
+Othello;Oth V.ii;15;Cassio, Desdemona, Emilia, Gratiano, Iago, Lodovico, Montano, Othello;no;8;5;2
+Pericles;Per I.i;1;Antiochus, Messenger, Pericles, Thaliard;yes;4;1;1
+Pericles;Per I.ii;2;Helicanus, First Lord, Second Lord, Pericles;yes;4;1;2
+Pericles;Per I.iii;3;Escanes, Helicanus, Thaliard;yes;3;1;3
+Pericles;Per I.iv;4;Cleon, Dionyza, Lord, Pericles;yes;4;1;4
+Pericles;Per II.i;5;First Fisherman, Second Fisherman, Third Fisherman, Pericles;no;4;2;1
+Pericles;Per II.ii;6;First Knight, Second Knight, Third Knight, Fourth Knight, Fifth Knight, Sixth Knight, First Lord, Second Lord, Third Lord, Simonides, Thaisa;yes;11;2;2
+Pericles;Per II.iii;7;First Knight, Second Knight, Third Knight, Fourth Knight, Fifth Knight, Marshal, Pericles, Simonides, Thaisa;yes;9;2;3
+Pericles;Per II.iv;8;Escanes, Helicanus, First Lord, Second Lord, Third Lord;no;5;2;4
+Pericles;Per II.v;9;First Knight, Second Knight, Third Knight, Fourth Knight, Fifth Knight, Pericles, Simonides, Thaisa;no;8;2;5
+Pericles;Per III.i;10;Lychorida, Pericles, First Sailor, Second Sailor, Thaisa;no;5;3;1
+Pericles;Per III.ii;11;Cerimon, First Gentleman, Second Gentleman, Philemon, First Servant, Second Servant, Thaisa;no;7;3;2
+Pericles;Per III.iii;12;Cleon, Dionyza, Lychorida, Pericles;no;4;3;3
+Pericles;Per III.iv;13;Cerimon, Thaisa;no;2;3;4
+Pericles;Per IV.i;14;Dionyza, Leonine, Marina, First Pirate, Second Pirate, Third Pirate;no;6;4;1
+Pericles;Per IV.ii;15;Bawd, Boult, First Pirate, Marina, Pandar;yes;5;4;2
+Pericles;Per IV.iii;16;Cleon, Dionyza;no;2;4;3
+Pericles;Per IV.v;17;First Gentleman, Second Gentleman;no;2;4;5
+Pericles;Per IV.vi;18;Bawd, Boult, Lysimachus, Marina, Pandar;no;5;4;6
+Pericles;Per V.i;19;Diana, First Gentleman, Helicanus, Lord, Lysimachus, Marina, Pericles, Sailor of Mytilene, Sailor of Tyre;yes;9;5;1
+Pericles;Per V.iII;20;Gower;no;1;5;1
+Pericles;Per V.iii;21;Cerimon, Helicanus, Marina, Pericles, Thaisa;yes;5;5;1
+Richard II;R2 I.i;1;Attendant, Bolingbroke, John of Gaunt, Lord Marshal, Mowbray, King Richard;yes;6;1;1
+Richard II;R2 I.ii;2;John of Gaunt, Duchess of Gloucester;no;2;1;2
+Richard II;R2 I.iii;3;Aumerle, Bagot, Bolingbroke, Bushy, John of Gaunt, Green, First Herald, Second Herald, Lord Marshal, Mowbray, King Richard;yes;11;1;3
+Richard II;R2 I.iv;4;Aumerle, Bagot, Bushy, Green, King Richard;no;5;1;4
+Richard II;R2 II.i;5;Aumerle, Bagot, Bushy, John of Gaunt, Green, Queen Isabel, Northumberland, King Richard, Ross, Willoughby, York;yes;11;2;1
+Richard II;R2 II.ii;6;Bagot, Bushy, Green, Queen Isabel, Servingman, York;no;6;2;2
+Richard II;R2 II.iii;7;Berkeley, Bolingbroke, Northumberland, Percy, Ross, Willoughby, York;no;7;2;3
+Richard II;R2 II.iv;8;Captain, Salisbury;no;2;2;4
+Richard II;R2 III.i;9;Bolingbroke, Bushy, Green, Northumberland, York;no;5;3;1
+Richard II;R2 III.ii;10;Aumerle, Bishop of Carlisle, King Richard, Salisbury, Scroop;yes;5;3;2
+Richard II;R2 III.iii;11;Bolingbroke, Bishop of Carlisle, Northumberland, Percy, King Richard, Salisbury, Scroop, York;yes;8;3;3
+Richard II;R2 III.iv;12;Gardener, Queen Isabel, First Lady, Second Lady, First Man, Second Man;no;6;3;4
+Richard II;R2 IV.i;13;Abbot of Westminster, Attendant, Aumerle, Bagot, Bolingbroke, Bishop of Carlisle, Fitzwater, Herald, Lord 1, Lord 2, Northumberland, Percy, Richard, Surrey, York;yes;15;4;1
+Richard II;R2 V.i;14;Queen Isabel, Northumberland, Richard;yes;3;5;1
+Richard II;R2 V.ii;15;Aumerle, York, Duchess of York;no;3;5;2
+Richard II;R2 V.iii;16;Aumerle, King Henry, Percy, York, Duchess of York;yes;5;5;3
+Richard II;R2 V.iv;17;Exton, Man;no;2;5;4
+Richard II;R2 V.v;18;Exton, Groom, Keeper, Richard, Servant 1, Servant 2;no;6;5;5
+Richard II;R2 V.vi;19;Bishop of Carlisle, Exton, Fitzwater, King Henry, Northumberland, Percy, York,;yes;7;5;6
+Richard III;R3 I.i;1;Brakenbury, Clarence, Hastings, Richard;no;4;1;1
+Richard III;R3 I.ii;2;Anne, Berkeley, Richard, Tressel;yes;4;1;2
+Richard III;R3 I.iii;3;Buckingham, Catesby, Derby, Dorset, Queen Elizabeth, Grey, Hastings, Queen Margaret, First Murderer, Second Murderer, Rivers;no;11;1;3
+Richard III;R3 I.iv;4;Clarence, Keeper, First Murderer, Second Murderer;no;4;1;4
+Richard III;R3 II.i;5;Buckingham, Catesby, Derby, Dorset, King Edward, Grey, Hastings, Queen, Ratcliffe, Richard, Rivers;yes;11;2;1
+Richard III;R3 II.ii;6;Boy, Buckingham, Derby, Dorset, Queen Elizabeth, Girl, Duchess of York, Hastings, Ratcliffe, Richard, Rivers;no;11;2;2
+Richard III;R3 II.iii;7;First Citizen, Second Citizen, Third Citizen;no;3;2;3
+Richard III;R3 II.iv;8;Archbishop, Queen Elizabeth, Messenger, York, Duchess of York;no;5;2;4
+Richard III;R3 III.i;9;Buckingham, Cardinal Bourchier, Catesby, Prince Edward, Hastings, Lord Mayor, Richard, York;yes;8;3;1
+Richard III;R3 III.ii;10;Buckingham, Catesby, Derby, Hastings, Hastings (Pursuivant), Messenger, Priest;no;7;3;2
+Richard III;R3 III.iii;11;Grey, Ratcliffe, Rivers, Vaughan;no;4;3;3
+Richard III;R3 III.iv;12;Bishop of Ely, Buckingham, Derby, Hastings, Lovel, Norfolk, Ratcliffe, Richard;yes;8;3;4
+Richard III;R3 III.v;13;Buckingham, Catesby, Lord Mayor, Lovel, Ratcliffe, Richard;no;6;3;5
+Richard III;R3 III.vi;14;Scrivener;no;1;3;6
+Richard III;R3 III.vii;15;Bishop 1, Bishop 2, Buckingham, Catesby, Lord Mayor, Richard;yes;6;3;7
+Richard III;R3 IV.i;16;Anne, Brakenbury, Derby, Dorset, Queen Elizabeth, Lady Margaret, Duchess of York;no;7;4;1
+Richard III;R3 IV.ii;17;Buckingham, Catesby, Derby, Page, King Richard, Tyrrel;no;6;4;2
+Richard III;R3 IV.iii;18;Ratcliffe, King Richard, Tyrrel;no;3;4;3
+Richard III;R3 IV.iv;19;Catesby, Derby, Queen Elizabeth, Queen Margaret, First Messenger, Second Messenger, Third Messenger, Fourth Messenger, Ratcliffe, King Richard, Duchess of York;no;12;4;4
+Richard III;R3 IV.v;20;Derby, Urswick;no;2;4;5
+Richard III;R3 V.i;21;Buckingham, Sheriff;yes;2;5;1
+Richard III;R3 V.ii;22;Blunt, Herbert, Oxford, Richmond;yes;4;5;2
+Richard III;R3 V.iii;23;Blunt, Brandon, Catesby, Derby, Dorset, Ghost (Anne), Ghost (Buckingham), Ghost (Clarence), Ghost (Prince Edward), Ghost (Grey), Ghost (Hastings), Ghost (Henry VI), Ghost (2 Princes), Ghost (Rivers), Ghost (Vaughan), Herbert, Messenger, Norfolk, Oxford, Ratcliffe, King Richard, Richmond, Surrey;yes;24;5;3
+Richard III;R3 V.iv;24;Catesby, King Richard;no;2;5;4
+Richard III;R3 V.v;25;Derby, King Richard, Richmond;yes;3;5;5
+Romeo and Juliet;RJ I.i;1;Abram, Benvolio, Capulet, Lady Capulet, Citizens, Gregory, Montague, Lady Montague, Prince, Romeo, Sampson, Servingman, Tybalt;yes;13;1;1
+Romeo and Juliet;RJ I.ii;2;Benvolio, Capulet, Paris, Romeo, Servant;no;5;1;2
+Romeo and Juliet;RJ I.iii;3;Lady Capulet, Juliet, Nurse, Servant;no;4;1;3
+Romeo and Juliet;RJ I.iv;4;Benvolio, Mercutio, Romeo;yes;3;1;4
+Romeo and Juliet;RJ I.v;5;Capulet, Cousin Capulet, Lady Capulet, Juliet, Nurse, Romeo, First Servingman, Second Servingman, Third Servingman, Fourth Servingman, Tybalt;yes;11;1;5
+Romeo and Juliet;RJ II.i;6;Benvolio, Mercutio, Romeo;no;3;2;1
+Romeo and Juliet;RJ II.ii;7;Juliet, Nurse, Romeo;no;3;2;2
+Romeo and Juliet;RJ II.iii;8;Friar, Romeo;no;2;2;3
+Romeo and Juliet;RJ II.iv;9;Benvolio, Mercutio, Nurse, Peter, Romeo;no;5;2;4
+Romeo and Juliet;RJ II.v;10;Juliet, Nurse;no;2;2;5
+Romeo and Juliet;RJ II.vi;11;Friar, Juliet, Romeo;no;3;2;6
+Romeo and Juliet;RJ III.i;12;Benvolio, Capulet, Lady Capulet, Citizens, Follower, Mercutio, Montague, Lady Montague, Page, Prince, Romeo, Tybalt;yes;12;3;1
+Romeo and Juliet;RJ III.ii;13;Juliet, Nurse;no;2;3;2
+Romeo and Juliet;RJ III.iii;14;Friar, Nurse, Romeo;no;3;3;3
+Romeo and Juliet;RJ III.iv;15;Capulet, Lady Capulet, Paris;no;3;3;4
+Romeo and Juliet;RJ III.v;16;Capulet, Lady Capulet, Juliet, Nurse, Romeo;no;5;3;5
+Romeo and Juliet;RJ IV.i;17;Friar, Juliet, Paris;no;3;4;1
+Romeo and Juliet;RJ IV.ii;18;Capulet, Lady Capulet, Juliet, Nurse, Servingman;yes;5;4;2
+Romeo and Juliet;RJ IV.iii;19;Juliet, Lady Capulet, Nurse;no;3;4;3
+Romeo and Juliet;RJ IV.iv;20;Capulet, Lady Capulet, Nurse, First Servingman, Second Servingman;yes;5;4;4
+Romeo and Juliet;RJ IV.v;21;Juliet, Capulet, Lady Capulet, Fiddler, First Musician, Second Musician, Third Musician, Friar, Nurse, Paris, Peter;yes;11;4;5
+Romeo and Juliet;RJ V.i;22;Apothecary, Balthasar, Romeo;no;3;5;1
+Romeo and Juliet;RJ V.ii;23;Friar, John;no;2;5;2
+Romeo and Juliet;RJ V.iii;24;Balthasar, Capulet, Lady Capulet, Juliet, Montague, Romeo, Page, Paris, Prince, First Watchman, Second Watchman, Third Watchman;yes;12;5;3
+The Comedy of Errors;CE I.i;1;Duke, Egeon, Gaoler;yes;3;1;1
+The Comedy of Errors;CE I.ii;2;Antipholus of Syracuse, Domio of Ephesus, Domio of Syracuse, First Merchant;no;4;1;2
+The Comedy of Errors;CE II.i;3;Adriana, Domio of Ephesus, Luciana;no;3;2;1
+The Comedy of Errors;CE II.ii;4;Adriana, Antipholus of Syracuse, Domio of Syracuse, Luciana;no;4;2;2
+The Comedy of Errors;CE III.i;5;Adriana, Angelo, Antipholus of Ephesus, Balthasar, Domio of Ephesus, Domio of Syracuse, Luce;no;7;3;1
+The Comedy of Errors;CE III.ii;6;Angelo, Antipholus of Syracuse, Domio of Syracuse, Luciana;no;4;3;2
+The Comedy of Errors;CE IV.i;7;Angelo, Antipholus of Ephesus, Courtesan, Domio of Ephesus, Domio of Syracuse, Officer, Second Merchant;no;7;4;1
+The Comedy of Errors;CE IV.ii;8;Adriana, Domio of Syracuse, Luciana;no;3;4;2
+The Comedy of Errors;CE IV.iii;9;Antipholus of Syracuse, Courtesan, Domio of Syracuse;no;3;4;3
+The Comedy of Errors;CE IV.iv;10;Adriana, Antipholus of Ephesus, Antipholus of Syracuse, Domio of Ephesus, Domio of Syracuse, Luciana, Officer, Pinch;no;8;4;4
+The Comedy of Errors;CE V.i;11;Abbess/Aemilia, Adriana, Angelo, Antipholus of Ephesus, Antipholus of Syracuse, Courtesan, Domio of Ephesus, Antipholus of Syracuse, Courtesan, Domio of Ephesus, Domio of Syracuse, Duke, Egeon, Luciana, Messenger, Second Merchant,;yes;9;5;1
+The Merchant of Venice;MV I.i;1;Antonio, Bassanio, Gratiano, Lorenzo, Salerio, Solanio;no;6;1;1
+The Merchant of Venice;MV I.ii;2;Nerissa, Portia, Servingman;no;3;1;2
+The Merchant of Venice;MV I.iii;3;Antonio, Bassanio, Shylock;no;3;1;3
+The Merchant of Venice;MV II.i;4;Morocco, Nerissa, Portia;yes;3;2;1
+The Merchant of Venice;MV II.ii;5;Bassanio, Gobbo, Gratiano, Launcelot, Leonardo;yes;5;2;2
+The Merchant of Venice;MV II.iii;6;Jessica, Launcelot;no;2;2;3
+The Merchant of Venice;MV II.iv;7;Gratiano, Launcelot, Lorenzo, Salerio, Solanio;no;5;2;4
+The Merchant of Venice;MV II.v;8;Jessica, Launcelot, Shylock;no;3;2;5
+The Merchant of Venice;MV II.vi;9;Antonio, Gratiano, Jessica, Lorenzo, Salerio;no;5;2;6
+The Merchant of Venice;MV II.vii;10;Morocco, Portia;yes;2;2;7
+The Merchant of Venice;MV II.viii;11;Salerio, Solanio;no;2;2;8
+The Merchant of Venice;MV II.ix;12;Arragon, Messenger, Nerissa, Portia, Servitor;yes;5;2;9
+The Merchant of Venice;MV III.i;13;Salerio, Shylock, Solanio, Tubal;no;4;3;1
+The Merchant of Venice;MV III.ii;14;Bassanio, Gratiano, Nerissa, Portia, Salerio;yes;5;3;2
+The Merchant of Venice;MV III.iii;15;Antonio, Gaoler, Shylock, Solanio;no;4;3;3
+The Merchant of Venice;MV III.iv;16;Balthasar, Jessica, Lorenzo, Nerissa, Portia;no;5;3;4
+The Merchant of Venice;MV III.v;17;Jessica, Launcelot, Lorenzo;no;3;3;5
+The Merchant of Venice;MV IV.i;18;Antonio, Bassanio, Duke, Gratiano, Nerissa, Portia, Salerio, Shylock;yes;8;4;1
+The Merchant of Venice;MV IV.ii;19;Gratiano, Nerissa, Portia;no;3;4;2
+The Merchant of Venice;MV V.i;20;Antonio, Bassanio, Gratiano, Jessica, Launcelot, Lorenzo, Nerissa, Portia, Stephano;yes;9;5;1
+The Merry Wives of Windsor;MW I.i;1;Anne, Bardolph, Evans, Falstaff, Mistress Ford, Mistress Page, Nym, Page, Pistol, Shallow, Simple, Slender;no;12;1;1
+The Merry Wives of Windsor;MW I.ii;2;Evans, Simple;no;2;1;2
+The Merry Wives of Windsor;MW I.iii;3;Bardolph, Falstaff, Host, Nym, Pistol, Robin;no;6;1;3
+The Merry Wives of Windsor;MW I.iv;4;Caius, Fenton, Mistress Quickly, Rugby, Simple;no;5;1;4
+The Merry Wives of Windsor;MW II.i;5;Ford, Mistress Ford, Host, Nym, Page, Mistress Page, Mistress Quickly, Shallow;no;8;2;1
+The Merry Wives of Windsor;MW II.ii;6;Bardolph, Falstaff, Ford, Pistol, Mistress Quickly, Robin;no;6;2;2
+The Merry Wives of Windsor;MW II.iii;7;Caius, Host, Page, Rugby, Shallow, Slender;no;6;2;3
+The Merry Wives of Windsor;MW III.i;8;Caius, Evans, Host, Page, Rugby, Shallow, Simple, Slender;no;8;3;1
+The Merry Wives of Windsor;MW III.ii;9;Caius, Evans, Ford, Host, Mistress Page, Page, Robin, Rugby, Shallow, Slender;no;10;3;2
+The Merry Wives of Windsor;MW III.iii;10;Caius, Evans, Falstaff, Ford, Mistress Ford, John, Page, Mistress Page, Robert, Robin;no;10;3;3
+The Merry Wives of Windsor;MW III.iv;11;Anne, Fenton, Page, Mistress Page, Mistress Quickly, Shallow, Slender;no;7;3;4
+The Merry Wives of Windsor;MW III.v;12;Bardolph, Falstaff, Ford, Mistress Quickly;no;4;3;5
+The Merry Wives of Windsor;MW IV.i;13;Evans, Mistress Page, Mistress Quickly, William;no;4;4;1
+The Merry Wives of Windsor;MW IV.ii;14;Caius, Evans, Falstaff, Ford, Mistress Ford, John, Page, Mistress Page, Robert, Shallow;no;10;4;2
+The Merry Wives of Windsor;MW IV.iii;15;Bardolph, Host;no;2;4;3
+The Merry Wives of Windsor;MW IV.iv;16;Evans, Ford, Mistress Ford, Page, Mistress Page;no;5;4;4
+The Merry Wives of Windsor;MW IV.v;17;Bardolph, Caius, Falstaff, Host, Mistress Quickly, Simple;no;6;4;5
+The Merry Wives of Windsor;MW IV.vi;18;Fenton, Host;no;2;4;6
+The Merry Wives of Windsor;MW V.i;19;Falstaff, Ford, Mistress Quickly;no;3;5;1
+The Merry Wives of Windsor;MW V.ii;20;Page, Shallow, Slender;no;3;5;2
+The Merry Wives of Windsor;MW V.iii;21;Caius, Mistress Ford, Mistress Page;no;3;5;3
+The Merry Wives of Windsor;MW V.iv;22;Evans;yes;1;5;4
+The Merry Wives of Windsor;MW V.v;23;Anne, Boy 1, Boy 2, Caius, Evans, Falstaff, Fenton, Ford, Mistress Ford, Page, Mistress Page, Pistol, Mistress Quickly, Slender;yes;14;5;5
+The Taming of the Shrew;TS induction.1;1;Hostess, First Huntsman, Page, First Player, Second Huntsman, Lord, First Servingman, Second Servingman, Third Servingman, Sly;yes;10;-1;-1
+The Taming of the Shrew;TS I.i;2;Baptista, Bianca, Biondello, Gremio, Hortensio, Katherina, Lord, Lucentio, Page, Sly, Tranio;no;11;1;1
+The Taming of the Shrew;TS I.ii;3;Biondello, Gremio, Grumio, Hortensio, Petruchio, Tranio;no;6;1;2
+The Taming of the Shrew;TS II.i;4;Baptista, Bianca, Biondello, Gremio, Hortensio, Katherina, Lucentio, Petruchio, Servant, Tranio;no;10;2;1
+The Taming of the Shrew;TS III.i;5;Bianca, Hortensio, Lucentio, Servant;no;4;3;1
+The Taming of the Shrew;TS III.ii;6;Baptista, Bianca, Biondello, Gremio, Grumio, Hortensio, Katherina, Lucentio, Petruchio, Tranio;yes;10;3;2
+The Taming of the Shrew;TS IV.i;7;Curtis, Grumio, Joseph, Katherina, Nathaniel, Nicholas, Petruchio, Philip;no;8;4;1
+The Taming of the Shrew;TS IV.ii;8;Bianca, Biondello, Hortensio, Lucentio, Pedant, Tranio;no;6;4;2
+The Taming of the Shrew;TS IV.iii;9;Grumio, Haberdasher, Hortensio, Katherina, Petruchio, Tailor;no;6;4;3
+The Taming of the Shrew;TS IV.iv;10;Baptista, Biondello, Lucentio, Pedant, Peter, Tranio;no;6;4;4
+The Taming of the Shrew;TS IV.v;11;Hortensio, Katherina, Petruchio, Vincentio;yes;4;4;5
+The Taming of the Shrew;TS V.i;12;Baptista, Bianca, Biondello, Gremio, Grumio, Katherina, Lucentio, Pedant, Petruchio, Vincentio;yes;10;5;1
+The Taming of the Shrew;TS V.ii;13;Baptista, Bianca, Biondello, Gremio, Grumio, Hortensio, Katherina, Lucentio, Pedant, Petruchio, Tranio, Vincentio, Widow;yes;13;5;2
+The Tempest;Tem I.i;1;Alonso, Antonio, Boatswain, Ferdinand, Gonzalo, Mariners, Master, Sebastian;yes;8;1;1
+The Tempest;Tem I.ii;2;Ariel, Caliban, Ferdinand, Miranda, Prospero;no;5;1;2
+The Tempest;Tem II.i;3;Adrian, Alonso, Antonio, Ariel, Francisco, Gonzalo, Sebastian;yes;7;2;1
+The Tempest;Tem II.ii;4;Caliban, Stephano, Trinculo;no;3;2;2
+The Tempest;Tem III.i;5;Ferdinand, Miranda, Prospero;no;3;3;1
+The Tempest;Tem III.ii;6;Ariel, Caliban, Stephano, Trinculo;no;4;3;2
+The Tempest;Tem III.iii;7;Adrian, Alonso, Antonio, Ariel, Francisco, Gonzalo, Prospero, Sebastian;yes;8;3;3
+The Tempest;Tem IV.i;8;Ariel, Caliban, Ceres, Ferdinand, Iris, Juno, Miranda, Prospero, Stephano, Trinculo;yes;10;4;1
+The Tempest;Tem V.i;9;Adrian, Alonso, Antonio, Ariel, Boatswain, Caliban, Ferdinand, Francisco, Gonzalo, Master, Miranda, Prospero, Sebastian, Stephano, Trinculo;no;15;5;1
+The Two Gentlemen of Verona;TG I.i;1;Proteus, Speed, Valentine;no;3;1;1
+The Two Gentlemen of Verona;TG I.ii;2;Julia, Lucetta;no;2;1;2
+The Two Gentlemen of Verona;TG I.iii;3;Antonio, Panthino, Proteus;no;3;1;3
+The Two Gentlemen of Verona;TG II.i;4;Silvia, Speed, Valentine;no;3;2;1
+The Two Gentlemen of Verona;TG II.ii;5;Julia, Panthino, Proteus;no;3;2;2
+The Two Gentlemen of Verona;TG II.iii;6;Crab, Launce, Panthino;no;3;2;3
+The Two Gentlemen of Verona;TG II.iv;7;Duke, Proteus, Servant, Silvia, Speed, Thurio, Valentine;no;7;2;4
+The Two Gentlemen of Verona;TG II.v;8;Launce, Speed;no;2;2;5
+The Two Gentlemen of Verona;TG II.vi;9;Proteus;no;1;2;6
+The Two Gentlemen of Verona;TG II.vii;10;Julia, Lucetta;no;2;2;7
+The Two Gentlemen of Verona;TG III.i;11;Duke, Launce, Proteus, Thurio, Valentine;no;5;3;1
+The Two Gentlemen of Verona;TG III.ii;12;Duke, Proteus, Thurio;no;3;3;2
+The Two Gentlemen of Verona;TG IV.i;13;First Outlaw, Second Outlaw, Third Outlaw, Speed, Valentine;no;5;4;1
+The Two Gentlemen of Verona;TG IV.ii;14;Host, Julia, Proteus, Silvia, Thurio;no;5;4;2
+The Two Gentlemen of Verona;TG IV.iii;15;Eglamour, Silvia;no;2;4;3
+The Two Gentlemen of Verona;TG IV.iv;16;Crab, Julia, Launce, Proteus, Silvia;yes;5;4;4
+The Two Gentlemen of Verona;TG V.i;17;Eglamour, Silvia;no;2;5;1
+The Two Gentlemen of Verona;TG V.ii;18;Duke, Julia, Proteus, Thurio;no;4;5;2
+The Two Gentlemen of Verona;TG V.iii;19;First Outlaw, Second Outlaw, Third Outlaw, Silvia;no;4;5;3
+The Two Gentlemen of Verona;TG V.iv;20;Duke, First Outlaw, Second Outlaw, Third Outlaw, Julia, Proteus, Silvia, Thurio, Valentine;no;9;5;4
+The Winter's Tale;WT I.i;1;Archidamus, Camillo;no;2;1;1
+The Winter's Tale;WT I.ii;2;Camillo, Hermione, Leontes, Mamillius, Polixenes;yes;5;1;2
+The Winter's Tale;WT II.i;3;Antigonus, Hermione, First Lady, Second Lady, Leontes, Lord, Mamillius;yes;7;2;1
+The Winter's Tale;WT II.ii;4;Emilia, Gaoler, Gentleman, Paulina;yes;4;2;2
+The Winter's Tale;WT II.iii;5;Antigonus, Leontes, Lord, Paulina, Servant;yes;5;2;3
+The Winter's Tale;WT III.i;6;Cleomenes, Dion;no;2;3;1
+The Winter's Tale;WT III.ii;7;Cleomenes, Dion, Hermione, First Lady, Second Lady, Leontes, Lord, Officer, Paulina, Servant;yes;10;3;2
+The Winter's Tale;WT III.iii;8;Antigonus, Clown, Mariner, Shepherd;no;4;3;3
+The Winter's Tale;WT IV.i;9;Time;no;1;4;1
+The Winter's Tale;WT IV.ii;10;Camillo, Polixenes;no;2;4;2
+The Winter's Tale;WT IV.iii;11;Autolycus, Clown;no;2;4;3
+The Winter's Tale;WT IV.iv;12;Autolycus, Camillo, Clown, Dorcas, Florizel, Mopsa, Perdita, Polixenes, Servant, Shepherd;yes;10;4;4
+The Winter's Tale;WT V.i;13;Cleomenes, Dion, Florizel, Gentleman, Leontes, Lord, Paulina, Perdita;yes;8;5;1
+The Winter's Tale;WT V.ii;14;Autolycus, Clown, First Gentleman, Second Gentleman, Third Gentleman, Shepherd;no;6;5;2
+The Winter's Tale;WT V.iii;15;Camillo, Florizel, Hermione, Leontes, Paulina, Perdita, Polixenes;yes;7;5;3
+Timon of Athens;Tim I.i;1;Alcibiades, Apemantus, First Lord, Second Lord, Jeweller, Luculius, Merchant, Messenger, Old Athenian, Painter, Poet, Timon;yes;12;1;1
+Timon of Athens;Tim I.ii;2;Alcibiades, Apemantus, Cupid, Flavius, First Lord, Second Lord, Third Lord, First Servant, Second Servant, Third Servant, Timon, Ventidius;yes;12;1;2
+Timon of Athens;Tim II.i;3;Caphis, Senator;no;2;2;1
+Timon of Athens;Tim II.ii;4;Alcibiades, Apemantus, Caphis, Flaminius, Flavius, Fool, Isidore's Servant, Servant, Servilius, Page, Timon, Varro's Servant;yes;12;2;2
+Timon of Athens;Tim III.i;5;Flaminius, Luculius, Servant;no;3;3;1
+Timon of Athens;Tim III.ii;6;Lucius, Servilius, First Stranger, Second Stranger, Third Stranger;no;5;3;2
+Timon of Athens;Tim III.iii;7;Servant, Sempronius;no;2;3;3
+Timon of Athens;Tim III.iv;8;Flaminius, Flavius, Hortensius, Lucius's Servant, Philotus, Servilius, Timon, Titus, First Varro's Servant, Second Varro's Servant;yes;10;3;4
+Timon of Athens;Tim III.v;9;Alcibiades, First Senator, Second Senator, Third Senator;yes;4;3;5
+Timon of Athens;Tim III.vi;10;Lucius, Luculius, Sempronius, Timon, Ventidius;yes;5;3;6
+Timon of Athens;Tim IV.i;11;Timon;no;1;4;1
+Timon of Athens;Tim IV.ii;12;Flavius, First Servant, Second Servant, Third Servant;yes;4;4;2
+Timon of Athens;Tim IV.iii;13;Alcibiades, Apemantus, First Bandit, Second Bandit, Third Bandit, Flavius, Phrynia, Timandra, Timon;yes;9;4;3
+Timon of Athens;Tim V.i;14;Flavius, Painter, Poet, First Senator, Second Senator, Timon;no;6;5;1
+Timon of Athens;Tim V.ii;15;Messenger, Third Senator, Fourth Senator;no;3;5;2
+Timon of Athens;Tim V.iii;16;Soldier;no;1;5;3
+Timon of Athens;Tim V.iv;17;Alcibiades, First Senator, Second Senator, Soldier;yes;4;5;4
+Titus Andronicus;Tit I.i;1;Aaron, Alarbus, Bassianus, Captain, Chiron, Demetrius, Lavinia, Lucius, Marcus, Martius, Mutius, Quintus, Saturninus, Tamora, Titus, Tribune;yes;16;1;1
+Titus Andronicus;Tit II.i;2;Aaron, Chiron, Demetrius;no;3;2;1
+Titus Andronicus;Tit II.ii;3;Bassianus, Chiron, Demetrius, Lavinia, Lucius, Marcus, Martius, Quintus, Saturninus, Titus;no;10;2;2
+Titus Andronicus;Tit II.iii;4;Aaron, Tamora;no;4;2;3
+Titus Andronicus;Tit II.iv;5;Aaron, Bassianus, Chiron, Demetrius, Lavinia, Lucius, Marcus, Martius, Quintus, Saturninus, Tamora, Titus;yes;12;2;4
+Titus Andronicus;Tit III.i;6;Aaron, Lavinia, Lucius, Marcus, Martius, Messenger, Quintus, Titus;yes;8;3;1
+Titus Andronicus;Tit III.ii;7;Lavinia, Young Lucius, Marcus, Titus;no;4;3;2
+Titus Andronicus;Tit IV.i;8;Lavinia, Young Lucius, Marcus, Titus;no;4;4;1
+Titus Andronicus;Tit IV.ii;9;Aaron, Attendant, Chiron, Demetrius, Young Lucius, Nurse;yes;6;4;2
+Titus Andronicus;Tit IV.iii;10;Caius, Clown, Young Lucius, Marcus, Publius, Sempronius, Titus;no;7;4;3
+Titus Andronicus;Tit IV.iv;11;Aemilius, Chiron, Clown, Demetrius, Saturninus, Tamora;yes;6;4;4
+Titus Andronicus;Tit V.i;12;Aaron, Aemilius, First Goth, Second Goth, Lucius;yes;5;5;1
+Titus Andronicus;Tit V.ii;13;Caius, Chiron, Demetrius, Lavinia, Marcus, Publius, Tamora, Titus, Valentine;no;9;5;2
+Titus Andronicus;Tit V.iii;14;Aaron, Aemilius, Goth, Lavinia, Lucius, Young Lucius, Marcus, Roman, Saturninus, Tamora, Titus;yes;11;5;3
+Troilus and Cressida;TC Prologue;1;Prologue;no;1;0;-1
+Troilus and Cressida;TC I.i;2;Aeneas, Pandarus, Troilus;no;3;1;1
+Troilus and Cressida;TC I.ii;3;Aeneas, Alexander, Antenor, Boy, Cressida, Hector, Helenus, Pandarus, Paris, Troilus;yes;10;1;2
+Troilus and Cressida;TC I.iii;4;Aeneas, Agamemnon, Diomedes, Menelaus, Nestor, Ulysses;yes;6;1;3
+Troilus and Cressida;TC II.i;5;Achilles, Ajax, Patroclus, Thersites;no;4;2;1
+Troilus and Cressida;TC II.ii;6;Cassandra, Hector, Helenus, Paris, Priam, Troilus;no;6;2;2
+Troilus and Cressida;TC II.iii;7;Achilles, Agamemnon, Ajax, Calchas, Diomedes, Nestor, Patroclus, Thersites, Ulysses;no;9;2;3
+Troilus and Cressida;TC III.i;8;Helen, Pandarus, Paris, Servant;no;4;3;1
+Troilus and Cressida;TC III.ii;9;Cressida, Man, Pandarus, Troilus;no;4;3;2
+Troilus and Cressida;TC III.iii;10;Achilles, Agamemnon, Ajax, Calchas, Diomedes, Menelaus, Nestor, Patroclus, Thersites, Ulysses;no;10;3;3
+Troilus and Cressida;TC IV.i;11;Aeneas, Antenor, Deiphobus, Diomedes, Paris, Servant;yes;6;4;1
+Troilus and Cressida;TC IV.ii;12;Aeneas, Cressida, Pandarus, Troilus;no;4;4;2
+Troilus and Cressida;TC IV.iii;13;Aeneas, Antenor, Diomedes, Paris, Deiphobus, Troilus;no;6;4;3
+Troilus and Cressida;TC IV.iv;14;Aeneas, Antenor, Cressida, Deiphobus, Diomedes, Pandarus, Paris, Troilus;no;8;4;4
+Troilus and Cressida;TC IV.v;15;Achilles, Aeneas, Agamemnon, Ajax, Calchas, Cressida, Diomedes, Hector, Helenus, Menelaus, Nestor, Paris, Patroclus, Troilus, Ulysses;yes;15;4;5
+Troilus and Cressida;TC V.i;16;Achilles, Agamemnon, Ajax, Diomedes, Hector, Menelaus, Nestor, Patroclus, Thersites, Troilus, Ulysses;no;11;5;1
+Troilus and Cressida;TC V.ii;17;Calchas, Cressida, Diomedes, Thersites, Troilus, Ulysses;no;6;5;2
+Troilus and Cressida;TC V.iii;18;Andromache, Cassandra, Hector, Pandarus, Priam, Troilus;no;6;5;3
+Troilus and Cressida;TC V.iv;19;Diomedes, Hector, Thersites, Troilus;no;4;5;4
+Troilus and Cressida;TC V.v;20;Achilles, Agamemnon, Ajax, Diomedes, Nestor, Servant, Ulysses;yes;7;5;5
+Troilus and Cressida;TC V.vi;21;Ajax, Diomedes, Greek soldier, Hector, Troilus;no;5;5;6
+Troilus and Cressida;TC V.vii;22;Achilles, Margarelon, Menelaus, Myrmidons, Paris, Thersites;yes;6;5;7
+Troilus and Cressida;TC V.viii;23;Achilles, Hector, Myrmidons;yes;3;5;8
+Troilus and Cressida;TC V.ix;24;Agamemnon, Ajax, Diomedes, Menelaus, Nestor, Soldiers;yes;6;5;9
+Troilus and Cressida;TC V.x;25;Aeneas, Antenor, Deiphobus, Pandarus, Paris, Troilus;yes;6;5;10
+Twelfth Night;TN I.i;1;Curio, Orsino, Valentine;no;3;1;1
+Twelfth Night;TN I.ii;2;Captain, Viola;no;2;1;2
+Twelfth Night;TN I.iii;3;Sir Andrew, Maria, Sir Toby;no;3;1;3
+Twelfth Night;TN I.iv;4;Curio, Orsino, Valentine, Viola;yes;4;1;4
+Twelfth Night;TN I.v;5;Feste, Malvolio, Maria, Olivia, Sir Toby, Viola;yes;6;1;5
+Twelfth Night;TN II.i;6;Antonio, Sebastian;no;2;2;1
+Twelfth Night;TN II.ii;7;Malvolio, Viola;no;2;2;2
+Twelfth Night;TN II.iii;8;Sir Andrew, Feste, Malvolio, Maria, Sir Toby;no;5;2;3
+Twelfth Night;TN II.iv;9;Curio, Feste, Orsino, Viola;yes;4;2;4
+Twelfth Night;TN II.v;10;Sir Andrew, Fabian, Malvolio, Maria, Sir Toby;no;5;2;5
+Twelfth Night;TN III.i;11;Sir Andrew, Feste, Maria, Olivia, Sir Toby, Viola;no;6;3;1
+Twelfth Night;TN III.ii;12;Sir Andrew, Fabian, Maria, Sir Toby;no;4;3;2
+Twelfth Night;TN III.iii;13;Antonio, Sebastian;no;2;3;3
+Twelfth Night;TN III.iv;14;Sir Andrew, Antonio, Fabian, First Officer, Second Officer, Malvolio, Maria, Olivia, Sir Toby, Viola;no;10;3;4
+Twelfth Night;TN IV.i;15;Sir Andrew, Fabian, Feste, Olivia, Sebastian, Sir Toby;no;6;4;1
+Twelfth Night;TN IV.ii;16;Feste, Malvolio, Maria, Sir Toby;no;4;4;2
+Twelfth Night;TN IV.iii;17;Olivia, Priest, Sebastian;no;3;4;3
+Twelfth Night;TN V.i;18;Sir Andrew, Antonio, Attendant, Fabian, Feste, Malvolio, First Officer, Olivia, Orsino, Priest, Sebastian, Sir Toby, Viola;yes;13;5;1
