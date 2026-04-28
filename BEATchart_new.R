@@ -55,7 +55,7 @@ speech_data <- speech_data %>%
     !grepl("Prologue", play_character_list, ignore.case = TRUE) )
 
 View(speech_data)
-saveRDS(speech_data, "/Users/uliapolovinka/Desktop/speech_data.rds")
+saveRDS(speech_data, file = "~/Desktop/speech_data.rds")
 
 
 
