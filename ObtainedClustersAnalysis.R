@@ -3,20 +3,16 @@ library(mclust)
 library(reshape2)
 library(aricode)
 
-
-
-
-
 list.files(path = "/Users/uliapolovinka/Desktop/", pattern = "\\.rds$", full.names = TRUE)
 
 clustering_all_methods <- readRDS("/Users/uliapolovinka/Desktop/clustering_all_methods.rds")
 clusterings1 <- readRDS("/Users/uliapolovinka/Desktop/clusterings1.rds")
 clusterings2 <- readRDS("/Users/uliapolovinka/Desktop/clusterings2.rds")
+
 dtw_clusters <- readRDS("/Users/uliapolovinka/Desktop/dtw_clusters.rds")
 
 speech_data <- readRDS("/Users/uliapolovinka/Desktop/speech_data.rds")
 
-#text_analysis_clustering <- readRDS("/Users/uliapolovinka/Desktop/text_analysis_clustering.rds")
 
 getwd()
 list.files(pattern = "\\.rds$")
@@ -89,9 +85,11 @@ cluster_list4 <- list(
   emd = emd_wardD2_clusters,
   roughness4 = roughness_clusters_4,
   archetypoid =archetypoids )
+cluster_list4$statistics <- cluster_list4$statistics %>%
+  select(play_name, cluster = kmeans_cluster_4)
 
-#table_lengths <- sapply(cluster_list4, function(df) length(unique(df$play_name)))
-#print(table_lengths)
+cluster_list4$statistics$play_name_match <- normalize_play_name(cluster_list4$statistics$play_name)
+
 
 cluster_list4 <- lapply(cluster_list4, function(df) {
   df <- df %>% rename(cluster = tidyselect::any_of(c("Cluster", "archetype_cluster")))
@@ -160,8 +158,7 @@ cluster_list4_full <- cluster_list4
 
 methods <- names(cluster_list4)
 
-adjustedRandIndex(cluster_list4$statistics$cluster,
-                  cluster_list4$statistics$cluster)
+
 
 
 compute_similarity_matrix <- function(metric_fun) {
@@ -202,9 +199,7 @@ pheatmap(ari_matrix4,
          main = "ARI between clustering methods (k = 4)",
          angle_col = 45)
 
-# analysis of couccurence 
-library(dplyr)
-library(tidyr)
+
 standardize_name <- function(name) {
   name <- gsub("’", "'", name)
   name <- gsub(" +", " ", name)
@@ -247,7 +242,6 @@ for (method_df in cluster_list4) {
     }
   }
 }
-library(igraph)
 
 edge_df <- as.data.frame(as.table(co_occurrence)) %>%
   filter(Freq >= threshold & Var1 != Var2)
@@ -323,7 +317,6 @@ pheatmap(
   border_color = NA
 )
 
-# COOCCURRENCE
 
 cluster_only <- cluster_matrix[, -which(names(cluster_matrix) == "play_name_match")]
 
@@ -348,12 +341,6 @@ for (method in names(cluster_only)) {
 
 View(cooccurrence_matrix)
 
-library(openxlsx)
-
-#write.xlsx(cooccurrence_matrix,
- #          "/Users/uliapolovinka/Desktop/cooccurrence_matrix.xlsx", rowNames = TRUE)
-
-library(readxl)
 
 props <- read_excel("/Users/uliapolovinka/Desktop/diplomova praca/plays_prop_dataset (version 2).xlsx")
 
@@ -431,21 +418,77 @@ st <- igraph::strength(
 st_num <- unname(as.numeric(st))
 st_num[is.na(st_num)] <- 0
 
-V(co_graph)$size <- 6 + base::log1p(st_num)
+lay <- layout_with_fr(co_graph, niter = 2000)
 
-plot(co_graph,
+V(co_graph)$size <- 10 + 2 * log1p(st_num)
+par(bg = "white")
+
+lay <- layout_with_fr(co_graph, niter = 2000)
+
+par(bg = "white")
+
+dev.new(width = 10, height = 8)
+w_norm <- E(co_graph)$weight / max(E(co_graph)$weight)
+
+edge_cols <- rgb(
+  red = 213/255,
+  green = 94/255,
+  blue = 0/255,
+  alpha = 0.05 + 0.5 * w_norm
+)
+
+plot(
+  co_graph,
   layout = lay,
   vertex.label = V(co_graph)$name,
-  edge.width = E(co_graph)$width,
-  vertex.frame.color = NA)
+  vertex.label.cex = 0.7,
+  vertex.label.color = "navy",
+  vertex.label.family = "serif",
+  vertex.label.dist = 0.3,
+  
+  vertex.size = 6,
+  vertex.color = "#E69F00",
+  vertex.frame.color = NA,
+  
+  edge.width = 0.2 + 0.6 * w_norm,
+  edge.color = edge_cols,
+  
+  margin = 0.05
+)
+g8 <- delete_edges(co_graph, E(co_graph)[weight < 8])
 
 g8 <- delete_edges(co_graph, E(co_graph)[weight < 8])
 
-plot(g8,
-     layout = lay,
-     vertex.label = V(g8)$name,
-     edge.width = 0.5 + 0.2 * E(g8)$weight,
-     vertex.frame.color = NA)
+w_norm_g8 <- E(g8)$weight / max(E(g8)$weight)
+
+edge_cols_g8 <- rgb(
+  red   = 213/255,
+  green = 94/255,
+  blue  = 0/255,
+  alpha = 0.08 + 0.65 * w_norm_g8
+)
+
+dev.new(width = 10, height = 8)
+
+plot(
+  g8,
+  layout = lay,
+  vertex.label = V(g8)$name,
+  vertex.label.cex = 0.7,
+  vertex.label.color = "navy",
+  vertex.label.family = "serif",
+  vertex.label.dist = 0.3,
+  
+  vertex.size = 6,
+  vertex.color = "#E69F00",
+  vertex.frame.color = NA,
+  
+  edge.width = 0.3 + 0.9 * w_norm_g8,
+  edge.color = edge_cols_g8,
+  
+  margin = 0.05)
+
+
 
 w8 <- as.numeric(E(g8)$weight)
 
@@ -574,8 +617,7 @@ plot(
   layout = lay,
   vertex.size = 5,
   vertex.label = V(g_show)$name,
-  main = paste("Graph of Play Co-occurrence (threshold ≥", thr_show, ")")
-)
+  main = paste("Graph of Play Co-occurrence (threshold ≥", thr_show, ")"))
 
 sums_cooccurrence <- rowSums(cooccurrence_matrix)
 print(sort(sums_cooccurrence))
@@ -633,31 +675,100 @@ get_isolated_plays(co_graph, 6)
 get_isolated_plays(co_graph, 7)
 get_isolated_plays(co_graph, 8)
 get_isolated_plays(co_graph, 9)
-# WALKTRAP alg for detecting comunities
 
-wt4 <- cluster_walktrap(co_graph, steps = 4, weights = E(co_graph)$weight)
 
-mems_wt4 <- membership(wt4)             
-mod_wt4  <- modularity(wt4)   
+
+# WALKTRAP 
+
+wt4 <- cluster_walktrap(
+  co_graph,
+  steps = 4,
+  weights = E(co_graph)$weight)
 
 set.seed(42)
 lay <- layout_with_fr(co_graph)
 
+# 1) Optimal Walktrap partition
+
+mems_wt_opt <- membership(wt4)
+mod_wt_opt  <- modularity(wt4)
+
+table_wt_opt <- table(mems_wt_opt)
+
+V(co_graph)$comm <- factor(mems_wt_opt)
+
+graphics.off()
+
 plot(
   co_graph,
   layout = lay,
-  vertex.color = as.factor(mems_wt4),
-  vertex.label = V(co_graph)$name,
-  vertex.size = 18,
-  edge.color = "grey80",
-  main = "Walktrap: 4 Steps"
-)
+  vertex.color = V(co_graph)$comm,
+  vertex.label = NA,
+  vertex.size = 9,
+  edge.width = 0.4,
+  edge.color = "grey80")
 
-wt <- cluster_walktrap(co_graph, steps = 4, weights = E(co_graph)$weight)
+print(table_wt_opt)
+print(mod_wt_opt)
 
-mems_k4 <- cut_at(wt, no = 4)
+plays <- V(co_graph)$name
 
-mod_k4  <- modularity(co_graph, mems_k4, weights = E(co_graph)$weight)
+walktrap_opt_df <- data.frame(
+  Play = plays,
+  Cluster = unname(mems_wt_opt),
+  stringsAsFactors = FALSE)
+
+walktrap_opt_df <- walktrap_opt_df[
+  order(walktrap_opt_df$Cluster, walktrap_opt_df$Play),]
+
+saveRDS(walktrap_opt_df, "walktrap_cooc_optimal.rds")
+
+
+
+# 2) Walktrap partition cut into 3 communities
+
+mems_k3 <- cut_at(wt4, no = 3)
+
+mod_k3 <- modularity(
+  co_graph,
+  mems_k3,
+  weights = E(co_graph)$weight)
+
+table_k3 <- table(mems_k3)
+
+V(co_graph)$comm <- factor(mems_k3)
+
+plot(
+  co_graph,
+  layout = lay,
+  vertex.color = V(co_graph)$comm,
+  vertex.label = NA,
+  vertex.size = 9,
+  edge.width = 0.4,
+  edge.color = "grey80")
+
+print(table_k3)
+print(mod_k3)
+
+walktrap_k3_df <- data.frame(
+  Play = plays,
+  Cluster = unname(mems_k3),
+  stringsAsFactors = FALSE)
+
+walktrap_k3_df <- walktrap_k3_df[
+  order(walktrap_k3_df$Cluster, walktrap_k3_df$Play),]
+
+saveRDS(walktrap_k3_df, "walktrap_cooc_k3.rds")
+
+
+# 3) Walktrap partition cut into 4 communities
+
+mems_k4 <- cut_at(wt4, no = 4)
+
+mod_k4 <- modularity(
+  co_graph,
+  mems_k4,
+  weights = E(co_graph)$weight)
 
 table_k4 <- table(mems_k4)
 
@@ -667,46 +778,91 @@ plot(
   co_graph,
   layout = lay,
   vertex.color = V(co_graph)$comm,
-  vertex.label = V(co_graph)$name,
-  vertex.size = 18,
-  edge.color = "grey80",
-  main = sprintf("Walktrap (steps = 4), cut to 4 communities")
-)
+  vertex.label = NA,
+  vertex.size = 9,
+  edge.width = 0.4,
+  edge.color = "grey80")
 
 print(table_k4)
-
-plays <- V(co_graph)$name
+print(mod_k4)
 
 walktrap_k4_df <- data.frame(
   Play = plays,
   Cluster = unname(mems_k4),
-  stringsAsFactors = FALSE
-)
+  stringsAsFactors = FALSE)
 
 walktrap_k4_df <- walktrap_k4_df[
-  order(walktrap_k4_df$Cluster, walktrap_k4_df$Play), ]
+  order(walktrap_k4_df$Cluster, walktrap_k4_df$Play),]
 
 saveRDS(walktrap_k4_df, "walktrap_cooc_k4.rds")
 
-# strong pairs
-strong_pairs <- which(cooccurrence_matrix >= 5, arr.ind = TRUE)
 
-pair_df <- data.frame(
-  Play1 = rownames(cooccurrence_matrix)[strong_pairs[,1]],
-  Play2 = colnames(cooccurrence_matrix)[strong_pairs[,2]],
-  Count = cooccurrence_matrix[strong_pairs]
-) %>%
-  dplyr::filter(Play1 < Play2) %>%
-  arrange(desc(Count))
 
-head(pair_df, 20)
-View(cooccurrence_matrix)
-A <- (cooccurrence_matrix >= 8) * 1
-g <- graph_from_adjacency_matrix(A, mode = "undirected", diag = FALSE)
 
-# every wth every
-cliques8 <- max_cliques(g, min = 4)
-strict_groups8 <- lapply(cliques8, names)
-strict_groups8
+# CLUSTER OPTIMAl
+opt <- cluster_optimal(co_graph, weights = E(co_graph)$weight)
+
+mems_opt <- membership(opt)
+mod_opt  <- modularity(opt)
+
+V(co_graph)$comm_opt <- factor(mems_opt)
+
+plot(
+  co_graph,
+  layout = lay,
+  vertex.color = V(co_graph)$comm_opt,
+  vertex.label = NA,
+  vertex.size = 9,
+  edge.width=0.3,
+  edge.color = "grey80")
+
+optimal_df <- data.frame(
+  Play = V(co_graph)$name,
+  Cluster = unname(mems_opt),
+  stringsAsFactors = FALSE)
+
+optimal_df <- optimal_df[
+  order(optimal_df$Cluster, optimal_df$Play), ]
+
+saveRDS(optimal_df, "optimal_cooc.rds")
+
+
+
+# Computing ARI for Cluster_optimal and Walktrap 
+library(mclust)
+ari_value <- adjustedRandIndex(
+  optimal_df$Cluster,
+  walktrap_opt_df$Cluster)
+
+print(ari_value)
+#0.3510451 for walktrap_3, 0.6662859 for walktrap_4, 0.6141642 for walktrap_optimal
+
+
+# Calculating similarity for Walktrap_4 and our individual methods with ARI
+
+wt_df <- walktrap_k4_df %>%
+  rename(
+    play_name_match = Play,
+    cluster_wt = Cluster)
+
+uniquemethod <- cluster_list4_full$emd %>%
+  select(play_name_match, cluster)
+merged_df <- inner_join(wt_df, uniquemethod, by = "play_name_match")
+
+ari_value <- adjustedRandIndex(
+  merged_df$cluster_wt,
+  merged_df$cluster)
+
+
+#archetypoid: 0.4218384.           roughness: 0.2511371
+#netlsd:-0.03135001                spectral entropy: 0.2819386
+#statistics: 0.4439401             rough+entropy: 0.4494451
+#dtw: 0.1120898                    emd:0.473226
+#archetype: 0.1103817
+
+
+
+
+
 
 
