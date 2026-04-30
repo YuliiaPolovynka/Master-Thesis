@@ -4,7 +4,7 @@ library(igraph)
 library(proxy)
 
 # PART 1 NETLsd
-folder_path <- "/Users/uliapolovinka/Desktop/diplomova praca/networks/"
+folder_path <- "/Users/uliapolovinka/Desktop/diplomova praca 2/networks"
 file_list <- list.files(folder_path, pattern = "\\.csv$", full.names = TRUE)
 
 # Function to load a graph from a CSV file
@@ -59,8 +59,46 @@ rownames(netlsd_matrix) <- basename(file_list)
 colnames(netlsd_matrix) <- paste0("t_", seq_along(t_values1))
 
 # Plot NetLSD signatures of all plays
-matplot(t(netlsd_matrix), type = "l", lty = 1,
-        xlab = "t", ylab = "NetLSD", main = "NetLSD vectors")
+graphics.off()
+
+par(mar = c(5, 6, 4, 2))
+
+plot(
+  x = t_values1,
+  y = netlsd_matrix[1, ],
+  type = "n",
+  log = "x",
+  xlim = c(0.01, 10),
+  ylim = c(0, max(netlsd_matrix)),
+  xaxt = "n",
+  yaxt = "n",
+  xlab = "logaritmic scale",
+  ylab = expression(h[t]))
+
+matlines(
+  x = t_values1,
+  y = t(netlsd_matrix),
+  lty = 1)
+
+axis(
+  side = 1,
+  at = c(0.01, 0.1, 1, 10),
+  labels = expression(10^{-2}, 10^{-1}, 10^{0}, 10^{1}))
+
+axis(
+  side = 2,
+  at = c(20, 40, 60),
+  labels = c("20", "40", "60"),
+  las = 1)
+
+segments(0.01, 1, 10, 1, col = "grey60", lty = 2)
+segments(0.01, 2, 10, 2, col = "grey60", lty = 2)
+text(0.012, 1 - 1, expression(h[t] == 1),
+     pos = 4, cex = 0.8, col = "grey40")
+
+text(0.012, 2 + 1, expression(h[t] == 2),
+     pos = 4, cex = 0.8, col = "grey40")
+
 # Function to convert file names to readable play titles
 clean_play_name <- function(x) {
   x <- basename(x)                              
