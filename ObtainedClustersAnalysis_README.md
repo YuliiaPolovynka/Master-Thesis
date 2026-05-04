@@ -1,6 +1,7 @@
 # ObtainedClustersAnalysis.R - script description
 
-This script compares clustering results obtained from different methods used in the thesis.
+This script compares clustering results obtained from different methods used in the thesis and containes code for Chapter 4 Clustering and Comparison: Investigation of Groups
+of Similar Plays.
 
 ## Overview
 
