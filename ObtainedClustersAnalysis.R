@@ -289,7 +289,8 @@ edge_cols <- rgb(
   green = 94/255,
   blue = 0/255,
   alpha = 0.05 + 0.5 * w_norm)
-
+dev.off()
+set.seed(123)
 plot(co_graph,layout = lay,
      vertex.label = V(co_graph)$name, vertex.label.cex = 0.7,
      vertex.label.color = "navy",vertex.label.family = "serif",
@@ -373,11 +374,12 @@ comp_summary <- do.call(rbind, lapply(res_list, function(res) res$comp_stats))
 comp_summary <- comp_summary[order(comp_summary$threshold, -comp_summary$size), ]
 
 rownames(comp_summary) <- NULL
-res_list[[which(thresholds == 7)]]$components
-res_list[[which(thresholds == 7)]]$cliques
+
+res_list[[which(thresholds == 9)]]$components
+res_list[[which(thresholds == 9)]]$cliques
 comp_summary %>%
-  filter(threshold == 6) %>%
-  select(component, size, edges, density, members) #manually setting the thr value
+  filter(threshold == 9) %>%
+  select(component, size, edges, density, members) #manually setting the thr values for components and cliques
 
 
 # analysis by cliques at threshold 8
@@ -418,7 +420,7 @@ get_isolated_plays <- function(graph, threshold) {
   return(isolated_plays)
 }
 
-get_isolated_plays(co_graph, 6)
+get_isolated_plays(co_graph, 5)
 get_isolated_plays(co_graph, 7)
 get_isolated_plays(co_graph, 8)
 get_isolated_plays(co_graph, 9)
@@ -482,7 +484,7 @@ mod_k3 <- modularity(co_graph,
 table_k3 <- table(mems_k3)
 
 V(co_graph)$comm <- factor(mems_k3)
-
+dev.off()
 plot(co_graph,
   layout = lay,
   vertex.color = V(co_graph)$comm,
@@ -516,7 +518,7 @@ mod_k4 <- modularity(co_graph,
 table_k4 <- table(mems_k4)
 
 V(co_graph)$comm <- factor(mems_k4)
-
+dev.off()
 plot(co_graph,
   layout = lay,
   vertex.color = V(co_graph)$comm,
@@ -544,7 +546,7 @@ mems_opt <- membership(opt)
 mod_opt  <- modularity(opt)
 
 V(co_graph)$comm_opt <- factor(mems_opt)
-
+dev.off()
 plot(co_graph, layout = lay, vertex.color = V(co_graph)$comm_opt,
   vertex.label = NA, vertex.size = 9, edge.width=0.3, edge.color = "grey80")
 
@@ -561,10 +563,10 @@ saveRDS(optimal_df, "optimal_cooc.rds")
 library(mclust)
 ari_value <- adjustedRandIndex(
   optimal_df$Cluster,
-  walktrap_opt_df$Cluster)
+  walktrap_k3_df$Cluster)
 
 print(ari_value)
-#0.3510451 for walktrap_3, 0.6662859 for walktrap_4, 0.6141642 for walktrap_optimal
+#0.4444424 for walktrap_3, 0.567747 for walktrap_4, 0.6434944 for walktrap_optimal
 
 
 # Calculating similarity for Walktrap_4 and our individual methods with ARI
@@ -573,15 +575,15 @@ wt_df <- walktrap_k4_df %>%
   rename(play_name_match = Play,
     cluster_wt = Cluster)
 
-uniquemethod <- cluster_list4_full$emd %>%
+uniquemethod <- cluster_list4_full$netlsd_wardD2 %>%
   select(play_name_match, cluster)
 merged_df <- inner_join(wt_df, uniquemethod, by = "play_name_match")
 
 ari_value <- adjustedRandIndex(merged_df$cluster_wt, merged_df$cluster)
 
 
-#archetypoid: 0.4218384.           roughness: 0.2511371
-#netlsd:-0.03135001                spectral entropy: 0.2819386
-#statistics: 0.4439401             rough+entropy: 0.4494451
-#dtw: 0.1120898                    emd:0.473226
-#archetype: 0.1103817
+#archetypoid: 0.4339244            roughness: 0.388743
+#netlsd:   -0.001264223            spectral entropy: 0.1651842
+#statistics: 0.483162             rough+entropy: 0.318238 
+#dtw:  0.100306                   emd:0.5117256
+#archetype: 0.1688403
