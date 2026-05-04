@@ -1,7 +1,6 @@
 # Character_And_Word_Count_Analysis.R - script description
 
-This script computes basic text statistics for Shakespeare's plays and compares them with clustering results. This whole code is additional analysis of plays which is not used and described in the thesis.
-
+This script computes basic text statistics for Shakespeare's plays and compares them with clustering results. This script contains additional analysis that is not discussed in the thesis.
 ## Overview
 
 The code includes the following steps:
