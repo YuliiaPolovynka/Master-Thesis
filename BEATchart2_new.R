@@ -4,12 +4,8 @@ library(seewave)
 library(ggplot2)
 library(purrr)              
 library(dplyr) 
-install.packages("emdist")
 library(emdist)  
-install.packages("CVXR")
 library(CVXR)
-install.packages("archetypes")
-install.packages("Anthropometry")
 library(archetypes)
 library(Anthropometry)
 
@@ -447,8 +443,7 @@ barplot(table(cluster_assignment),
 # play closest to each archetype
 closest_plays <- apply(alpha_mat, 2, which.max)
 rownames(interpolated_matrix)[closest_plays]
-#[1] "Othello"                    "The Merry Wives of Windsor"
-#[3] "Henry V"                    "Pericles"  
+
 
 cluster_df_interpolated_beat_charts <- data.frame(
   play = rownames(interpolated_matrix),
