@@ -9,7 +9,6 @@ library(CVXR)
 library(archetypes)
 library(Anthropometry)
 
-#speech_data <- readRDS("C:/Users/Юля/Desktop/speech_data.rds")
 speech_data <- readRDS("~/Desktop/speech_data.rds")
 unique_plays <- unique(speech_data$play_name)
 
@@ -272,8 +271,6 @@ saveRDS(combined_df, "~/Desktop/data_roughness_entropy_clusters_4.rds")
 
 # EMD
 # Function for computing EMD using convex optimization
-install.packages("ECOSolveR")
-library(CVXR)
 kantorovich_CVX <- function(
     mu, nu, dist=NULL, solution=FALSE, stop_if_fail=TRUE, solver = "ECOS", ...
 ){
