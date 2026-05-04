@@ -1,0 +1,7 @@
+Spoken words dataset
+
+This folder contains spoken text for each Shakespeare play.
+
+Each file represents one play in plain text format.
+
+These texts were used to compute the number of words and characters of each play.
