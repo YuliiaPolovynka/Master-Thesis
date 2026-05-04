@@ -154,10 +154,10 @@ set.seed(42)
 kmeans_result <- kmeans(results[, c("Characters", "Words")], centers = 4, nstart = 25)
 results$Cluster <- as.factor(kmeans_result$cluster)
 
-drama_summary_kmeans_k4 <- results[, c("ID", "Cluster", "Characters", "Words")]
+text_kmeans_k4 <- results[, c("ID", "Cluster", "Characters", "Words")]
 
-print(head(drama_summary_kmeans_k4))
+print(head(text_kmeans_k4))
 
 saveRDS(
-  drama_summary_kmeans_k4,
-  file = "/Users/uliapolovinka/Desktop/drama_summary_kmeans_k4.rds")
+  text_kmeans_k4,
+  file = "/Users/uliapolovinka/Desktop/text_kmeans_k4.rds")
