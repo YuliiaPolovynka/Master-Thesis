@@ -2,12 +2,13 @@ library(dplyr)
 library(mclust)
 library(reshape2)
 library(aricode)
+library(igraph)
+library(pheatmap)
+library(readxl)
 
 list.files(path = "/Users/uliapolovinka/Desktop/", pattern = "\\.rds$", full.names = TRUE)
 
 clustering_all_methods <- readRDS("/Users/uliapolovinka/Desktop/clustering_all_methods.rds")
-clusterings1 <- readRDS("/Users/uliapolovinka/Desktop/clusterings1.rds")
-clusterings2 <- readRDS("/Users/uliapolovinka/Desktop/clusterings2.rds")
 
 dtw_clusters <- readRDS("/Users/uliapolovinka/Desktop/dtw_clusters.rds")
 
@@ -54,9 +55,7 @@ clustering_all_methods_clean <- lapply(clustering_all_methods, function(df) {
   colnames(df) <- c("play_name", "cluster")                  
   return(df)
 })
-text_analysis_clustering <- text_analysis_clustering %>%
-  mutate(play_name = sapply(ID, convert_filename_to_title)) %>%
-  select(play_name, cluster = Cluster)
+
 head(clustering_all_methods_clean$single)
 
 netlsd_average <- clustering_all_methods$average
@@ -434,11 +433,9 @@ edge_cols <- rgb(
   red = 213/255,
   green = 94/255,
   blue = 0/255,
-  alpha = 0.05 + 0.5 * w_norm
-)
+  alpha = 0.05 + 0.5 * w_norm)
 
-plot(
-  co_graph,
+plot(co_graph,
   layout = lay,
   vertex.label = V(co_graph)$name,
   vertex.label.cex = 0.7,
@@ -453,11 +450,11 @@ plot(
   edge.width = 0.2 + 0.6 * w_norm,
   edge.color = edge_cols,
   
-  margin = 0.05
-)
+  margin = 0.05)
+                       
 g8 <- delete_edges(co_graph, E(co_graph)[weight < 8])
 
-g8 <- delete_edges(co_graph, E(co_graph)[weight < 8])
+
 
 w_norm_g8 <- E(g8)$weight / max(E(g8)$weight)
 
