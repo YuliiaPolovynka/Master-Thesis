@@ -56,8 +56,6 @@ clustering_all_methods_clean <- lapply(clustering_all_methods, function(df) {
 
 head(clustering_all_methods_clean$single)
 
-
-# ARI for clusters
 #cluster list with 4 clusters
 cluster_list4 <- list(
   netlsd_wardD2 = clustering_all_methods_clean$ward.D2,
@@ -384,10 +382,8 @@ comp_summary %>%
 
 # analysis by cliques at threshold 8
 res_t8 <- res_list[[which(thresholds == 8)]]
-
 props$play_name_match <- normalize_play_name(props$Play)
 head(props[, c("Play", "play_name_match")])
-
 
 for (nm in names(res_t8$cliques)) {
   cat("\n=== Clique", nm, "===\n")
@@ -408,7 +404,6 @@ for (nm in names(res_t8$cliques)) {
   print(table(info$Geography))
 }
 
-
 # Isolated plays for each threshold 
 
 get_isolated_plays <- function(graph, threshold) {
@@ -420,12 +415,14 @@ get_isolated_plays <- function(graph, threshold) {
   return(isolated_plays)
 }
 
-get_isolated_plays(co_graph, 5)
+get_isolated_plays(co_graph, 6)
 get_isolated_plays(co_graph, 7)
 get_isolated_plays(co_graph, 8)
 get_isolated_plays(co_graph, 9)
 
-
+# sums of cooccurence matrix for each play
+co_sum <- rowSums(cooccurrence_matrix)
+sort(co_sum)
 
 # WALKTRAP 
 
@@ -473,41 +470,8 @@ saveRDS(walktrap_opt_df, "walktrap_cooc_optimal.rds")
 
 
 
-# 2) Walktrap partition cut into 3 communities
 
-mems_k3 <- cut_at(wt4, no = 3)
-
-mod_k3 <- modularity(co_graph,
-  mems_k3,
-  weights = E(co_graph)$weight)
-
-table_k3 <- table(mems_k3)
-
-V(co_graph)$comm <- factor(mems_k3)
-dev.off()
-plot(co_graph,
-  layout = lay,
-  vertex.color = V(co_graph)$comm,
-  vertex.label = NA,
-  vertex.size = 9,
-  edge.width = 0.4,
-  edge.color = "grey80")
-
-print(table_k3)
-print(mod_k3)
-
-walktrap_k3_df <- data.frame(
-  Play = plays,
-  Cluster = unname(mems_k3),
-  stringsAsFactors = FALSE)
-
-walktrap_k3_df <- walktrap_k3_df[
-  order(walktrap_k3_df$Cluster, walktrap_k3_df$Play),]
-
-saveRDS(walktrap_k3_df, "walktrap_cooc_k3.rds")
-
-
-# 3) Walktrap partition cut into 4 communities
+# 2) Walktrap partition cut into 4 communities
 
 mems_k4 <- cut_at(wt4, no = 4)
 
@@ -563,11 +527,10 @@ saveRDS(optimal_df, "optimal_cooc.rds")
 library(mclust)
 ari_value <- adjustedRandIndex(
   optimal_df$Cluster,
-  walktrap_k3_df$Cluster)
+  walktrap_opt_df$Cluster)
 
 print(ari_value)
-#0.4444424 for walktrap_3, 0.567747 for walktrap_4, 0.6434944 for walktrap_optimal
-
+#0.1631502 for walktrap_4, 0.7898523 for walktrap_optimal
 
 # Calculating similarity for Walktrap_4 and our individual methods with ARI
 
@@ -575,15 +538,14 @@ wt_df <- walktrap_k4_df %>%
   rename(play_name_match = Play,
     cluster_wt = Cluster)
 
-uniquemethod <- cluster_list4_full$netlsd_wardD2 %>%
+uniquemethod <- cluster_list4_full$statistics %>%
   select(play_name_match, cluster)
 merged_df <- inner_join(wt_df, uniquemethod, by = "play_name_match")
 
 ari_value <- adjustedRandIndex(merged_df$cluster_wt, merged_df$cluster)
-
-
-#archetypoid: 0.4339244            roughness: 0.388743
-#netlsd:   -0.001264223            spectral entropy: 0.1651842
-#statistics: 0.483162             rough+entropy: 0.318238 
-#dtw:  0.100306                   emd:0.5117256
-#archetype: 0.1688403
+print(ari_value)
+#archetypoid: 0.6180054            roughness: 0.1455034
+#netlsd:  0.007917118          spectral entropy: 0.07746697
+#statistics:  0.7167229              rough+entropy:   0.01192989
+#dtw:  0.1344181                   emd: 0.7342773
+#archetype: 0.3701702
