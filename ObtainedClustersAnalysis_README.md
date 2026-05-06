@@ -22,9 +22,9 @@ of Similar Plays.
 - Compares detected groups with play metadata such as genre, period and geography
 
 - Applies community detection methods to the co-occurrence graph:
-  - Walktrap (2 optimal, also 3 and 4 communities for further comparison)
-  - optimal clustering (3 communities)
-  - ARI between Waktrap with 4 communities and individual methods and Walktrap with optimal modularity
+  - Walktrap (2 communities optimal and 4 communities for further comparison)
+  - optimal clustering (2 communities)
+  - ARI between Waktrap with 4 communities and individual methods and Walktrap with optimal modularity 
 
 ## Input
 
@@ -39,6 +39,5 @@ of Similar Plays.
 - co-occurrence graph
 - community detection results:
   - `walktrap_cooc_optimal.rds`
-  - `walktrap_cooc_k3.rds`
   - `walktrap_cooc_k4.rds`
   - `optimal_cooc.rds`
