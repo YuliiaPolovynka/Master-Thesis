@@ -99,10 +99,10 @@ for (play in unique_plays) {
 roughness_values <- data.frame(
   play_name = unique_plays,
   roughness = sapply(unique_plays, function(play) roughness(interpolated_series_list[[play]])),
-  stringsAsFactors = FALSE
-)
-grep("Henry", roughness_values$play_name, value = TRUE)
+  stringsAsFactors = FALSE)
+
 View(roughness_values)
+
 # Historical order from older to newer
 play_order <- c(
   "The Taming of the Shrew",
@@ -181,7 +181,7 @@ plot(
   y = roughness_values$roughness,
   col = c("red", "blue", "pink", "black")[as.numeric(roughness_values$cluster_4)],
   pch = 19,
-  cex = 1.3,
+  cex = 0.8,
   xlab = "Play index (historical order)",
   ylab = "Roughness",
   ylim = c(0, max(roughness_values$roughness) + 0.05),
@@ -198,8 +198,8 @@ text(
 # Spectral Entropy Analysis and Clustering
 
 spectral_entropy_values <- data.frame(play_name = character(),
-  spectral_entropy = numeric(),
-  stringsAsFactors = FALSE)
+                                      spectral_entropy = numeric(),
+                                      stringsAsFactors = FALSE)
 
 # Compute spectral entropy for each interpolated beat sequence
 for (play in unique_plays) {
@@ -212,8 +212,7 @@ for (play in unique_plays) {
     spectral_entropy = se ))
 }
 
-plot(
-  x = 1:nrow(spectral_entropy_values),
+plot(x = 1:nrow(spectral_entropy_values),
   y = spectral_entropy_values$spectral_entropy,
   pch = 19,
   col = "purple",
@@ -222,13 +221,10 @@ plot(
   ylim = c(0, max(spectral_entropy_values$spectral_entropy) + 0.05),
   xlim = c(0, nrow(spectral_entropy_values) + 1))
 
-text(
-  x = 1:nrow(spectral_entropy_values),
+text(x = 1:nrow(spectral_entropy_values),
   y = spectral_entropy_values$spectral_entropy + 0.004,
   labels = spectral_entropy_values$play_name,
-  cex = 0.6,
-  pos = 3,
-  xpd = NA)
+  cex = 0.6, pos = 3, xpd = NA)
 
 # K-means clustering based on spectral entropy
 set.seed(42)
@@ -236,26 +232,18 @@ set.seed(42)
 # k=4
 kmeans_entropy_4 <- kmeans(spectral_entropy_values$spectral_entropy, centers = 4)
 spectral_entropy_values$cluster_4 <- as.factor(kmeans_entropy_4$cluster)
-
-# Save clustering results (k = 4)
 saveRDS(spectral_entropy_values, "~/Desktop/data_spectral_entropy_clusters_4.rds")
-plot(
-  x = 1:nrow(spectral_entropy_values),
+plot(x = 1:nrow(spectral_entropy_values),
   y = spectral_entropy_values$spectral_entropy,
   col = spectral_entropy_values$cluster_4,
-  pch = 19,
-  xlab = "Play index (historical order)",
-  ylab = "Spectral Entropy",
-  xlim = c(-1, nrow(spectral_entropy_values) + 2),  
+  pch = 19, xlab = "Play index (historical order)",
+  ylab = "Spectral Entropy", xlim = c(-1, nrow(spectral_entropy_values) + 2),  
   ylim = c(0, max(spectral_entropy_values$spectral_entropy) + 0.06))
 
-text(
-  x = 1:nrow(spectral_entropy_values),
+text(x = 1:nrow(spectral_entropy_values),
   y = spectral_entropy_values$spectral_entropy + 0.012,
   labels = spectral_entropy_values$play_name,
-  cex = 0.6,
-  pos = 3,
-  xpd = NA)
+  cex = 0.6, pos = 3, xpd = NA)
 
 # Rough + Entripy
 combined_df <- merge(
@@ -265,9 +253,20 @@ combined_df <- merge(
 scaled_data <- scale(combined_df[, c("roughness", "spectral_entropy")])
 
 #k=4
+set.seed(123)
 kmeans_combined_4 <- kmeans(scaled_data, centers = 4)
 combined_df$cluster_4 <- as.factor(kmeans_combined_4$cluster)
 saveRDS(combined_df, "~/Desktop/data_roughness_entropy_clusters_4.rds")
+cluster_colors <- c("red", "blue", "green", "black")
+col = cluster_colors[as.numeric(combined_df$cluster_4)]
+plot(combined_df$roughness, combined_df$spectral_entropy,
+     col = cluster_colors[as.numeric(combined_df$cluster_4)], pch = 19,
+     xlab = "Roughness", ylab = "Spectral Entropy",
+     main = "Clustering by Roughness + Spectral Entropy", xlim = c(-0.05, 0.85), ylim = c(0.2, 0.55) )
+
+# with names
+text(x = combined_df$roughness,
+     y = combined_df$spectral_entropy + 0.001, labels = combined_df$play_name, cex = 0.6, pos = 3)
 
 # EMD
 # Function for computing EMD using convex optimization
@@ -325,8 +324,6 @@ get_signature <- function(series) {
   list(pos = pos, w = w)
 }
 
-
-
 for (i in 1:n) {
   for (j in i:n) {
     play_i <- unique_plays[i]
@@ -370,9 +367,6 @@ View(check)
 emd_dist <- as.dist(EMD_classic)
 hcl <- hclust(emd_dist, method = "ward.D2")
 plot(hcl, cex = 0.8)
-
-
-
 cut_clusters <- cutree(hcl, k = 4)
 
 cluster_df_emd <- data.frame(
@@ -390,16 +384,14 @@ w   <- sig$w
 lab_pos <- format(round(pos, 2), nsmall = 2, trim = TRUE)
 
 par(mar = c(5, 4, 3, 1) + 0.2)
-barplot(
-  height = w,
+barplot(height = w,
   names.arg = lab_pos,
   border = NA,
   col = "#5DA5DA",              
   xlab = "Beat position (change rate)",
   ylab = "Relative weight",
   las = 2,                      
-  cex.names = 0.8               
-)
+  cex.names = 0.8)
 box(bty = "l")
 
 
@@ -445,8 +437,6 @@ rownames(interpolated_matrix)[closest_plays]
 cluster_df_interpolated_beat_charts <- data.frame(
   play = rownames(interpolated_matrix),
   archetype_cluster = cluster_assignment)
-
-# Save results to RDS file
 saveRDS(cluster_df_interpolated_beat_charts, file = "~/Desktop/archetype_clusters.rds")
 # For archetypes from beat charts
 alpha_matrix <- coef(aa_4)
@@ -454,9 +444,8 @@ rowSums(alpha_matrix)  #all ones
 colSums(alpha_matrix)  
 
 # Archetypal Analysis: Roughness + Spectral Entropy
-
 # Combine roughness and spectral entropy data
-combined_df <- merge(roughness_values, spectral_entropy_values, by = "play_name")
+# combined_df <- merge(roughness_values, spectral_entropy_values, by = "play_name")
 
 combined_matrix <- as.matrix(combined_df[, c("roughness", "spectral_entropy")])
 rownames(combined_matrix) <- combined_df$play_name
@@ -465,30 +454,6 @@ set.seed(123)
 arch_models <- stepArchetypes(combined_matrix, k = 1:10, nrep = 5)
 
 screeplot(arch_models)
-
-# Select model with 3 archetypes
-best_arch <- bestModel(arch_models[[3]])
-
-xyplot(best_arch, combined_matrix, chull = chull(combined_matrix))  
-xyplot(best_arch, combined_matrix, adata.show = TRUE)
-alpha_matrix <- coef(best_arch)
-assigned_cluster <- max.col(alpha_matrix) #assigning by dominant coefficient
-
-barplot(table(assigned_cluster),
-        col = rainbow(length(unique(assigned_cluster))),
-        main = "Number of Plays per Archetype Cluster",
-        xlab = "Archetype Cluster", ylab = "Number of Plays")
-
-plot(combined_matrix, col = assigned_cluster, pch = 19,
-     xlab = "Roughness", ylab = "Spectral Entropy",
-     main = "Archetypal Clustering (Roughness + Entropy)")
-legend("topright", legend = unique(assigned_cluster), col = unique(assigned_cluster), pch = 19)
-
-arch_cluster_df_rough_entr <- data.frame(
-  play_name = rownames(combined_matrix),
-  cluster = assigned_cluster)
-
-saveRDS(arch_cluster_df_rough_entr, file = "roughness_entropy_archetypes.rds")
 
 #  Archetypal analysis with 4 archetypes
 best_arch_4 <- bestModel(arch_models[[4]])
@@ -499,7 +464,6 @@ arch_cluster_df_rough_entr_4 <- data.frame(
   cluster_4 = assigned_cluster_4)
 
 saveRDS(arch_cluster_df_rough_entr_4, file = "roughness_entropy_archetypes_4.rds")
-
 
 # Archetypoids with Anthropometry 
 
@@ -528,8 +492,7 @@ print(selected_plays)
 alpha_matrix <- res_archetypoids$alphas 
 clusters_archetypoids <- max.col(t(alpha_matrix))
 
-cluster_df_archetypoids <- data.frame(
-  play_name = rownames(interpolated_matrix),
+cluster_df_archetypoids <- data.frame(play_name = rownames(interpolated_matrix),
   cluster = clusters_archetypoids)
 
 saveRDS(cluster_df_archetypoids, "~/Desktop/beat_chart_archetypoids_clusters.rds")
@@ -544,4 +507,4 @@ legend("bottomright", legend = selected_plays, col = 1:4, lty = 1, lwd = 2)
 cluster_assignment2 <- max.col(t(alpha_matrix))
 table(cluster_assignment2) 
 table(cluster_assignment)
-table(cluster_assignment,cluster_assignment2 )
+table(cluster_assignment,cluster_assignment2)
